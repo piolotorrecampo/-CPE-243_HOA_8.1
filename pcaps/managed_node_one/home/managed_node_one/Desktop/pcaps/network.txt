@@ -1,0 +1,1777 @@
+    1 0.000000000    10.0.3.15 → 10.6.15.200  DNS 87 Standard query 0x2b11 A services.addons.mozilla.org
+    2 0.000171958    10.0.3.15 → 10.6.15.200  DNS 87 Standard query 0xfe3e AAAA services.addons.mozilla.org
+    3 0.019924264    10.0.3.15 → 10.6.15.200  DNS 84 Standard query 0x2df2 A detectportal.firefox.com
+    4 0.020095055    10.0.3.15 → 10.6.15.200  DNS 84 Standard query 0xc410 AAAA detectportal.firefox.com
+    5 0.021579144  10.6.15.200 → 10.0.3.15    DNS 624 Standard query response 0x2df2 A detectportal.firefox.com CNAME detectportal.prod.mozaws.net CNAME prod.detectportal.prod.cloudops.mozgcp.net A 34.107.221.82 NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30
+    6 0.107104821    10.0.3.15 → 10.6.15.200  DNS 88 Standard query 0xf815 AAAA contile.services.mozilla.com
+    7 0.251825749  10.6.15.200 → 10.0.3.15    DNS 506 Standard query response 0xfe3e AAAA services.addons.mozilla.org NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net NS g.root-servers.net NS j.root-servers.net NS c.root-servers.net NS f.root-servers.net NS k.root-servers.net NS a.root-servers.net NS e.root-servers.net NS i.root-servers.net NS d.root-servers.net NS l.root-servers.net A 199.9.14.201 A 198.97.190.53 A 202.12.27.33 A 192.112.36.4 A 192.58.128.30 A 192.33.4.12 A 192.5.5.241 A 193.0.14.129 A 198.41.0.4 A 192.203.230.10 A 192.36.148.17 A 199.7.91.13 A 199.7.83.42
+    8 0.273409572  10.6.15.200 → 10.0.3.15    DNS 668 Standard query response 0xc410 AAAA detectportal.firefox.com CNAME detectportal.prod.mozaws.net CNAME prod.detectportal.prod.cloudops.mozgcp.net AAAA 2600:1901:0:38d7:: NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net A 34.107.221.82 A 34.107.221.82 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30
+    9 0.277535995    10.0.3.15 → 34.107.221.82 TCP 74 52830 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1253250946 TSecr=0 WS=128
+   10 0.294732704 34.107.221.82 → 10.0.3.15    TCP 60 80 → 52830 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+   11 0.294763309    10.0.3.15 → 34.107.221.82 TCP 54 52830 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+   12 0.295348748    10.0.3.15 → 34.107.221.82 HTTP 355 GET /canonical.html HTTP/1.1 
+   13 0.295856024 34.107.221.82 → 10.0.3.15    TCP 60 80 → 52830 [ACK] Seq=1 Ack=302 Win=65535 Len=0
+   14 0.308098491    10.0.3.15 → 10.6.15.200  DNS 119 Standard query 0xf92b A content-signature-chains.prod.autograph.services.mozaws.net
+   15 0.308248100    10.0.3.15 → 10.6.15.200  DNS 119 Standard query 0x9e3c AAAA content-signature-chains.prod.autograph.services.mozaws.net
+   16 0.309563537  10.6.15.200 → 10.0.3.15    DNS 632 Standard query response 0xf92b A content-signature-chains.prod.autograph.services.mozaws.net CNAME prod.content-signature-chains.prod.webservices.mozgcp.net A 34.160.144.191 NS i.gtld-servers.net NS g.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net NS f.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net A 192.43.172.30 A 192.42.93.30 A 192.52.178.30 A 192.41.162.30 A 192.5.6.30 A 192.55.83.30 A 192.48.79.30 A 192.35.51.30 A 192.26.92.30 A 192.54.112.30 A 192.12.94.30 A 192.31.80.30 A 192.33.14.30
+   17 0.314039087 34.107.221.82 → 10.0.3.15    HTTP 352 HTTP/1.1 200 OK  (text/html)
+   18 0.314052712    10.0.3.15 → 34.107.221.82 TCP 54 52830 → 80 [ACK] Seq=302 Ack=299 Win=63942 Len=0
+   19 0.330888706    10.0.3.15 → 10.6.15.200  DNS 73 Standard query 0x1dbf AAAA ipv4only.arpa
+   20 0.332085012    10.0.3.15 → 34.107.221.82 TCP 74 52844 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1253251001 TSecr=0 WS=128
+   21 0.349718938 34.107.221.82 → 10.0.3.15    TCP 60 80 → 52844 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+   22 0.349742915    10.0.3.15 → 34.107.221.82 TCP 54 52844 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+   23 0.349987773    10.0.3.15 → 34.107.221.82 HTTP 357 GET /success.txt?ipv4 HTTP/1.1 
+   24 0.350133680 34.107.221.82 → 10.0.3.15    TCP 60 80 → 52844 [ACK] Seq=1 Ack=304 Win=65535 Len=0
+   25 0.359377764  10.6.15.200 → 10.0.3.15    DNS 520 Standard query response 0xf815 AAAA contile.services.mozilla.com NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30
+   26 0.360400802    10.0.3.15 → 34.117.237.239 TCP 74 36436 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1929618804 TSecr=0 WS=128
+   27 0.369587514 34.107.221.82 → 10.0.3.15    HTTP 270 HTTP/1.1 200 OK  (text/plain)
+   28 0.369606403    10.0.3.15 → 34.107.221.82 TCP 54 52844 → 80 [ACK] Seq=304 Ack=217 Win=64024 Len=0
+   29 0.370341071  10.6.15.200 → 10.0.3.15    DNS 570 Standard query response 0x2b11 A services.addons.mozilla.org A 13.249.39.127 A 13.249.39.54 A 13.249.39.110 A 13.249.39.46 NS g.root-servers.net NS j.root-servers.net NS c.root-servers.net NS f.root-servers.net NS k.root-servers.net NS a.root-servers.net NS e.root-servers.net NS i.root-servers.net NS d.root-servers.net NS l.root-servers.net NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net A 192.112.36.4 A 192.58.128.30 A 192.33.4.12 A 192.5.5.241 A 193.0.14.129 A 198.41.0.4 A 192.203.230.10 A 192.36.148.17 A 199.7.91.13 A 199.7.83.42 A 199.9.14.201 A 198.97.190.53 A 202.12.27.33
+   30 0.378017061 34.117.237.239 → 10.0.3.15    TCP 60 443 → 36436 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+   31 0.378040826    10.0.3.15 → 34.117.237.239 TCP 54 36436 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+   32 0.379886081    10.0.3.15 → 34.117.237.239 TLSv1 571 Client Hello
+   33 0.380256810 34.117.237.239 → 10.0.3.15    TCP 60 443 → 36436 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+   34 0.415530644 34.117.237.239 → 10.0.3.15    TLSv1.3 2102 Server Hello, Change Cipher Spec
+   35 0.415548575    10.0.3.15 → 34.117.237.239 TCP 54 36436 → 443 [ACK] Seq=518 Ack=2049 Win=62780 Len=0
+   36 0.418339542 34.117.237.239 → 10.0.3.15    TLSv1.3 2579 Application Data
+   37 0.418352784    10.0.3.15 → 34.117.237.239 TCP 54 36436 → 443 [ACK] Seq=518 Ack=4574 Win=62780 Len=0
+   38 0.487486379    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0x95be A r3.o.lencr.org
+   39 0.487614817    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0xd819 AAAA r3.o.lencr.org
+   40 0.489078294  10.6.15.200 → 10.0.3.15    DNS 589 Standard query response 0x95be A r3.o.lencr.org CNAME o.lencr.edgesuite.net CNAME a1887.dscq.akamai.net A 23.220.249.210 A 23.220.249.209 NS j.root-servers.net NS c.root-servers.net NS f.root-servers.net NS k.root-servers.net NS a.root-servers.net NS e.root-servers.net NS i.root-servers.net NS d.root-servers.net NS l.root-servers.net NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net NS g.root-servers.net A 192.58.128.30 A 192.33.4.12 A 192.5.5.241 A 193.0.14.129 A 198.41.0.4 A 192.203.230.10 A 192.36.148.17 A 199.7.91.13 A 199.7.83.42 A 199.9.14.201 A 198.97.190.53 A 202.12.27.33 A 192.112.36.4
+   41 0.489817070  10.6.15.200 → 10.0.3.15    DNS 677 Standard query response 0xd819 AAAA r3.o.lencr.org CNAME o.lencr.edgesuite.net CNAME a1887.dscq.akamai.net AAAA 2600:1408:7400::172e:9949 AAAA 2600:1408:7400::172e:9929 NS c.root-servers.net NS f.root-servers.net NS k.root-servers.net NS a.root-servers.net NS e.root-servers.net NS i.root-servers.net NS d.root-servers.net NS l.root-servers.net NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net NS g.root-servers.net NS j.root-servers.net A 23.220.249.209 A 23.220.249.210 A 23.220.249.210 A 23.220.249.209 A 192.33.4.12 A 192.5.5.241 A 193.0.14.129 A 198.41.0.4 A 192.203.230.10 A 192.36.148.17 A 199.7.91.13 A 199.7.83.42 A 199.9.14.201 A 198.97.190.53 A 202.12.27.33 A 192.112.36.4 A 192.58.128.30
+   42 0.490290163    10.0.3.15 → 23.220.249.209 TCP 74 41568 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2690735910 TSecr=0 WS=128
+   43 0.535121900    10.0.3.15 → 10.6.15.200  DNS 97 Standard query 0x57e6 A firefox.settings.services.mozilla.com
+   44 0.535260752    10.0.3.15 → 10.6.15.200  DNS 97 Standard query 0xd487 AAAA firefox.settings.services.mozilla.com
+   45 0.536674779  10.6.15.200 → 10.0.3.15    DNS 545 Standard query response 0x57e6 A firefox.settings.services.mozilla.com A 35.241.9.150 NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30
+   46 0.563080288  10.6.15.200 → 10.0.3.15    DNS 660 Standard query response 0x9e3c AAAA content-signature-chains.prod.autograph.services.mozaws.net CNAME prod.content-signature-chains.prod.webservices.mozgcp.net AAAA 2600:1901:0:92a9:: NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net NS f.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS g.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net A 34.160.144.191 A 192.5.6.30 A 192.55.83.30 A 192.48.79.30 A 192.35.51.30 A 192.26.92.30 A 192.54.112.30 A 192.12.94.30 A 192.31.80.30 A 192.33.14.30 A 192.43.172.30 A 192.42.93.30 A 192.52.178.30 A 192.41.162.30
+   47 0.584725642  10.6.15.200 → 10.0.3.15    DNS 492 Standard query response 0x1dbf AAAA ipv4only.arpa NS f.root-servers.net NS k.root-servers.net NS a.root-servers.net NS e.root-servers.net NS i.root-servers.net NS d.root-servers.net NS l.root-servers.net NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net NS g.root-servers.net NS j.root-servers.net NS c.root-servers.net A 192.5.5.241 A 193.0.14.129 A 198.41.0.4 A 192.203.230.10 A 192.36.148.17 A 199.7.91.13 A 199.7.83.42 A 199.9.14.201 A 198.97.190.53 A 202.12.27.33 A 192.112.36.4 A 192.58.128.30 A 192.33.4.12
+   48 0.704575647    10.0.3.15 → 10.6.15.200  DNS 90 Standard query 0xdd1c A incoming.telemetry.mozilla.org
+   49 0.704829987    10.0.3.15 → 10.6.15.200  DNS 90 Standard query 0xd452 AAAA incoming.telemetry.mozilla.org
+   50 0.706369962  10.6.15.200 → 10.0.3.15    DNS 638 Standard query response 0xdd1c A incoming.telemetry.mozilla.org CNAME telemetry-incoming.r53-2.services.mozilla.com CNAME prod.ingestion-edge.prod.dataops.mozgcp.net A 34.120.208.123 NS a.root-servers.net NS e.root-servers.net NS i.root-servers.net NS d.root-servers.net NS l.root-servers.net NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net NS g.root-servers.net NS j.root-servers.net NS c.root-servers.net NS f.root-servers.net NS k.root-servers.net A 198.41.0.4 A 192.203.230.10 A 192.36.148.17 A 199.7.91.13 A 199.7.83.42 A 199.9.14.201 A 198.97.190.53 A 202.12.27.33 A 192.112.36.4 A 192.58.128.30 A 192.33.4.12 A 192.5.5.241 A 193.0.14.129
+   51 0.728727517 23.220.249.209 → 10.0.3.15    TCP 60 80 → 41568 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+   52 0.728826934    10.0.3.15 → 23.220.249.209 TCP 54 41568 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+   53 0.729171419    10.0.3.15 → 23.220.249.209 OCSP 477 Request
+   54 0.729376829 23.220.249.209 → 10.0.3.15    TCP 60 80 → 41568 [ACK] Seq=1 Ack=424 Win=65535 Len=0
+   55 0.745488350    10.0.3.15 → 10.6.15.200  DNS 84 Standard query 0xbf38 A autopush.prod.mozaws.net
+   56 0.745592450    10.0.3.15 → 10.6.15.200  DNS 84 Standard query 0x0852 AAAA autopush.prod.mozaws.net
+   57 0.746855503  10.6.15.200 → 10.0.3.15    DNS 641 Standard query response 0xbf38 A autopush.prod.mozaws.net A 52.24.103.12 A 34.216.181.0 A 52.42.219.176 A 35.161.28.235 A 54.187.153.159 A 35.166.36.55 A 52.10.247.29 A 54.189.159.37 NS f.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS g.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net A 192.35.51.30 A 192.26.92.30 A 192.54.112.30 A 192.12.94.30 A 192.31.80.30 A 192.33.14.30 A 192.43.172.30 A 192.42.93.30 A 192.52.178.30 A 192.41.162.30 A 192.5.6.30 A 192.55.83.30 A 192.48.79.30
+   58 0.787853195  10.6.15.200 → 10.0.3.15    DNS 529 Standard query response 0xd487 AAAA firefox.settings.services.mozilla.com NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30
+   59 0.958055205  10.6.15.200 → 10.0.3.15    DNS 509 Standard query response 0xd452 AAAA incoming.telemetry.mozilla.org NS e.root-servers.net NS i.root-servers.net NS d.root-servers.net NS l.root-servers.net NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net NS g.root-servers.net NS j.root-servers.net NS c.root-servers.net NS f.root-servers.net NS k.root-servers.net NS a.root-servers.net A 192.203.230.10 A 192.36.148.17 A 199.7.91.13 A 199.7.83.42 A 199.9.14.201 A 198.97.190.53 A 202.12.27.33 A 192.112.36.4 A 192.58.128.30 A 192.33.4.12 A 192.5.5.241 A 193.0.14.129 A 198.41.0.4
+   60 0.959845758    10.0.3.15 → 34.120.208.123 TCP 74 48626 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1963806139 TSecr=0 WS=128
+   61 0.960065141    10.0.3.15 → 34.120.208.123 TCP 74 48630 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1963806139 TSecr=0 WS=128
+   62 0.969012723 23.220.249.209 → 10.0.3.15    OCSP 942 Response
+   63 0.969025544    10.0.3.15 → 23.220.249.209 TCP 54 41568 → 80 [ACK] Seq=424 Ack=889 Win=63936 Len=0
+   64 0.976575928 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48626 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+   65 0.976614819    10.0.3.15 → 34.120.208.123 TCP 54 48626 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+   66 0.976977292 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+   67 0.976986593    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+   68 0.984784421    10.0.3.15 → 34.120.208.123 TLSv1 571 Client Hello
+   69 0.984964086 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+   70 0.985285257    10.0.3.15 → 34.120.208.123 TLSv1 265 Client Hello
+   71 0.985632376 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48626 [ACK] Seq=1 Ack=212 Win=65535 Len=0
+   72 0.992468702    10.0.3.15 → 34.117.237.239 TLSv1.3 118 Change Cipher Spec, Application Data
+   73 0.992877081 34.117.237.239 → 10.0.3.15    TCP 60 443 → 36436 [ACK] Seq=4574 Ack=582 Win=65535 Len=0
+   74 0.993220148    10.0.3.15 → 34.117.237.239 TLSv1.3 224 Application Data
+   75 0.993505714 34.117.237.239 → 10.0.3.15    TCP 60 443 → 36436 [ACK] Seq=4574 Ack=752 Win=65535 Len=0
+   76 0.993591544    10.0.3.15 → 34.117.237.239 TLSv1.3 294 Application Data
+   77 0.993889847 34.117.237.239 → 10.0.3.15    TCP 60 443 → 36436 [ACK] Seq=4574 Ack=992 Win=65535 Len=0
+   78 1.009678449 34.117.237.239 → 10.0.3.15    TLSv1.3 608 Application Data, Application Data
+   79 1.009694611    10.0.3.15 → 34.117.237.239 TCP 54 36436 → 443 [ACK] Seq=992 Ack=5128 Win=62780 Len=0
+   80 1.010054965 34.117.237.239 → 10.0.3.15    TLSv1.3 85 Application Data
+   81 1.010062192    10.0.3.15 → 34.117.237.239 TCP 54 36436 → 443 [ACK] Seq=992 Ack=5159 Win=62780 Len=0
+   82 1.011814352    10.0.3.15 → 34.117.237.239 TLSv1.3 85 Application Data
+   83 1.012174166 34.117.237.239 → 10.0.3.15    TCP 60 443 → 36436 [ACK] Seq=5159 Ack=1023 Win=65535 Len=0
+   84 1.018908171 34.120.208.123 → 10.0.3.15    TLSv1.3 1466 Server Hello, Change Cipher Spec
+   85 1.018931601    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=518 Ack=1413 Win=63540 Len=0
+   86 1.019266211 34.120.208.123 → 10.0.3.15    TLSv1.2 2102 Server Hello
+   87 1.019400114    10.0.3.15 → 34.120.208.123 TCP 54 48626 → 443 [ACK] Seq=212 Ack=2049 Win=62780 Len=0
+   88 1.019588180 34.120.208.123 → 10.0.3.15    TCP 2102 443 → 48630 [PSH, ACK] Seq=1413 Ack=518 Win=65535 Len=2048 [TCP segment of a reassembled PDU]
+   89 1.019588206 34.120.208.123 → 10.0.3.15    TLSv1.3 111 Application Data
+   90 1.019588226 34.120.208.123 → 10.0.3.15    TLSv1.2 1444 Certificate, Server Key Exchange, Server Hello Done
+   91 1.019594176    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=518 Ack=3461 Win=61492 Len=0
+   92 1.019615164    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=518 Ack=3518 Win=61492 Len=0
+   93 1.019635859    10.0.3.15 → 34.120.208.123 TCP 54 48626 → 443 [ACK] Seq=212 Ack=3439 Win=61390 Len=0
+   94 1.021847115    10.0.3.15 → 34.120.208.123 TLSv1.2 147 Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+   95 1.022152769 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48626 [ACK] Seq=3439 Ack=305 Win=65535 Len=0
+   96 1.026242706    10.0.3.15 → 10.6.15.200  DNS 81 Standard query 0xd581 AAAA fp2e7a.wpc.phicdn.net
+   97 1.038711713 34.120.208.123 → 10.0.3.15    TLSv1.2 401 New Session Ticket, Change Cipher Spec, Encrypted Handshake Message, Application Data
+   98 1.038728252    10.0.3.15 → 34.120.208.123 TCP 54 48626 → 443 [ACK] Seq=305 Ack=3786 Win=62780 Len=0
+   99 1.046045867    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0x5682 A www.google.com
+  100 1.046162829    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0x77ba AAAA www.google.com
+  101 1.047396198  10.6.15.200 → 10.0.3.15    DNS 522 Standard query response 0x5682 A www.google.com A 216.239.38.120 NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30
+  102 1.084354937  10.6.15.200 → 10.0.3.15    DNS 513 Standard query response 0x0852 AAAA autopush.prod.mozaws.net NS h.gtld-servers.net NS e.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS g.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net NS f.gtld-servers.net NS c.gtld-servers.net A 192.54.112.30 A 192.12.94.30 A 192.31.80.30 A 192.33.14.30 A 192.43.172.30 A 192.42.93.30 A 192.52.178.30 A 192.41.162.30 A 192.5.6.30 A 192.55.83.30 A 192.48.79.30 A 192.35.51.30 A 192.26.92.30
+  103 1.104276375    10.0.3.15 → 10.6.15.200  DNS 84 Standard query 0xce26 AAAA autopush.prod.mozaws.net
+  104 1.143264197 34.117.237.239 → 10.0.3.15    TLSv1.3 358 Application Data, Application Data, Application Data
+  105 1.143264491 34.117.237.239 → 10.0.3.15    TLSv1.3 93 Application Data
+  106 1.143283699    10.0.3.15 → 34.117.237.239 TCP 54 36436 → 443 [ACK] Seq=1023 Ack=5463 Win=62780 Len=0
+  107 1.143322715    10.0.3.15 → 34.117.237.239 TCP 54 36436 → 443 [ACK] Seq=1023 Ack=5502 Win=62780 Len=0
+  108 1.144138100    10.0.3.15 → 34.117.237.239 TLSv1.3 93 Application Data
+  109 1.144708358 34.117.237.239 → 10.0.3.15    TCP 60 443 → 36436 [ACK] Seq=5502 Ack=1062 Win=65535 Len=0
+  110 1.231523151    10.0.3.15 → 10.6.15.200  DNS 75 Standard query 0x8bde A www.youtube.com
+  111 1.231661077    10.0.3.15 → 10.6.15.200  DNS 76 Standard query 0x399b A www.facebook.com
+  112 1.231739957    10.0.3.15 → 10.6.15.200  DNS 76 Standard query 0x211b AAAA www.facebook.com
+  113 1.231934307    10.0.3.15 → 10.6.15.200  DNS 78 Standard query 0xc08f A dyna.wikimedia.org
+  114 1.232311787    10.0.3.15 → 10.6.15.200  DNS 75 Standard query 0xfc81 AAAA www.youtube.com
+  115 1.234488228  10.6.15.200 → 10.0.3.15    DNS 513 Standard query response 0xc08f A dyna.wikimedia.org A 208.80.154.224 NS i.root-servers.net NS d.root-servers.net NS l.root-servers.net NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net NS g.root-servers.net NS j.root-servers.net NS c.root-servers.net NS f.root-servers.net NS k.root-servers.net NS a.root-servers.net NS e.root-servers.net A 192.36.148.17 A 199.7.91.13 A 199.7.83.42 A 199.9.14.201 A 198.97.190.53 A 202.12.27.33 A 192.112.36.4 A 192.58.128.30 A 192.33.4.12 A 192.5.5.241 A 193.0.14.129 A 198.41.0.4 A 192.203.230.10
+  116 1.234727223    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0x4124 A www.reddit.com
+  117 1.235661732    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0x15c2 AAAA www.reddit.com
+  118 1.236191630  10.6.15.200 → 10.0.3.15    DNS 567 Standard query response 0x4124 A www.reddit.com CNAME blocking.securityconnection.org A 197.189.204.175 NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30
+  119 1.278219277  10.6.15.200 → 10.0.3.15    DNS 510 Standard query response 0xd581 AAAA fp2e7a.wpc.phicdn.net NS e.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS g.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net NS f.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net A 192.12.94.30 A 192.31.80.30 A 192.33.14.30 A 192.43.172.30 A 192.42.93.30 A 192.52.178.30 A 192.41.162.30 A 192.5.6.30 A 192.55.83.30 A 192.48.79.30 A 192.35.51.30 A 192.26.92.30 A 192.54.112.30
+  120 1.278972510    10.0.3.15 → 192.229.211.108 TCP 74 36284 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2207340541 TSecr=0 WS=128
+  121 1.279212900    10.0.3.15 → 192.229.211.108 TCP 74 36296 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2207340541 TSecr=0 WS=128
+  122 1.298346846  10.6.15.200 → 10.0.3.15    DNS 506 Standard query response 0x77ba AAAA www.google.com NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30
+  123 1.299604179    10.0.3.15 → 216.239.38.120 UDP 1399 32869 → 443 Len=1357
+  124 1.300046373    10.0.3.15 → 216.239.38.120 TCP 74 53668 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2605944714 TSecr=0 WS=128
+  125 1.316731735 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53668 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  126 1.316758107    10.0.3.15 → 216.239.38.120 TCP 54 53668 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  127 1.317944819 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 32869 Len=1357
+  128 1.318308927    10.0.3.15 → 216.239.38.120 TLSv1 571 Client Hello
+  129 1.318565391 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53668 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+  130 1.318926074    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  131 1.330011583 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 32869 Len=1357
+  132 1.330170154 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 32869 Len=1357
+  133 1.330537455    10.0.3.15 → 216.239.38.120 UDP 84 32869 → 443 Len=42
+  134 1.336265805 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 32869 Len=1357
+  135 1.336265917 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 32869 Len=1357
+  136 1.336781796 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 32869 Len=1357
+  137 1.336978072    10.0.3.15 → 216.239.38.120 UDP 84 32869 → 443 Len=42
+  138 1.339538137 216.239.38.120 → 10.0.3.15    UDP 369 443 → 32869 Len=327
+  139 1.341456880    10.0.3.15 → 216.239.38.120 UDP 85 32869 → 443 Len=43
+  140 1.343827908    10.0.3.15 → 142.250.138.94 TCP 74 37796 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1529949876 TSecr=0 WS=128
+  141 1.349267262 216.239.38.120 → 10.0.3.15    TLSv1.3 1466 Server Hello, Change Cipher Spec
+  142 1.349286624    10.0.3.15 → 216.239.38.120 TCP 54 53668 → 443 [ACK] Seq=518 Ack=1413 Win=63540 Len=0
+  143 1.349803399 216.239.38.120 → 10.0.3.15    TLSv1.3 2931 Application Data
+  144 1.349813514    10.0.3.15 → 216.239.38.120 TCP 54 53668 → 443 [ACK] Seq=518 Ack=4290 Win=61320 Len=0
+  145 1.352968068    10.0.3.15 → 142.250.138.94 TCP 74 37810 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1529949885 TSecr=0 WS=128
+  146 1.369859991    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  147 1.370007213    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  148 1.386746137 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  149 1.415188342    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  150 1.415504138    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  151 1.427027139  10.6.15.200 → 10.0.3.15    DNS 513 Standard query response 0xce26 AAAA autopush.prod.mozaws.net NS d.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS g.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net NS f.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net A 192.31.80.30 A 192.33.14.30 A 192.43.172.30 A 192.42.93.30 A 192.52.178.30 A 192.41.162.30 A 192.5.6.30 A 192.55.83.30 A 192.48.79.30 A 192.35.51.30 A 192.26.92.30 A 192.54.112.30 A 192.12.94.30
+  152 1.427538943    10.0.3.15 → 52.24.103.12 TCP 74 60976 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1578411078 TSecr=0 WS=128
+  153 1.432934457 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  154 1.434697922    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0x694b AAAA www.google.com
+  155 1.437478274 192.229.211.108 → 10.0.3.15    TCP 60 80 → 36296 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  156 1.437498297    10.0.3.15 → 192.229.211.108 TCP 54 36296 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  157 1.437772276    10.0.3.15 → 192.229.211.108 OCSP 478 Request
+  158 1.438033395 192.229.211.108 → 10.0.3.15    TCP 60 80 → 36296 [ACK] Seq=1 Ack=425 Win=65535 Len=0
+  159 1.448618106 192.229.211.108 → 10.0.3.15    TCP 60 80 → 36284 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  160 1.448644734    10.0.3.15 → 192.229.211.108 TCP 54 36284 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  161 1.449062556    10.0.3.15 → 192.229.211.108 OCSP 478 Request
+  162 1.449272260 192.229.211.108 → 10.0.3.15    TCP 60 80 → 36284 [ACK] Seq=1 Ack=425 Win=65535 Len=0
+  163 1.455616287    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  164 1.455793790    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  165 1.472753513 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  166 1.483856017  10.6.15.200 → 10.0.3.15    DNS 568 Standard query response 0x8bde A www.youtube.com CNAME blocking.securityconnection.org A 197.189.204.175 NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30
+  167 1.484138349  10.6.15.200 → 10.0.3.15    DNS 569 Standard query response 0x211b AAAA www.facebook.com CNAME blocking.securityconnection.org NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net A 197.189.204.175 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30
+  168 1.484250652    10.0.3.15 → 10.6.15.200  DNS 91 Standard query 0x9b6f AAAA blocking.securityconnection.org
+  169 1.484946518  10.6.15.200 → 10.0.3.15    DNS 569 Standard query response 0x399b A www.facebook.com CNAME blocking.securityconnection.org A 197.189.204.175 NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30
+  170 1.485468997  10.6.15.200 → 10.0.3.15    DNS 568 Standard query response 0xfc81 AAAA www.youtube.com CNAME blocking.securityconnection.org NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net A 197.189.204.175 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30
+  171 1.487561038  10.6.15.200 → 10.0.3.15    DNS 506 Standard query response 0x15c2 AAAA www.reddit.com NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30
+  172 1.492925300    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  173 1.493126897    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  174 1.509980257 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  175 1.527228559    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  176 1.527501333    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  177 1.532700621 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37796 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  178 1.532766793    10.0.3.15 → 142.250.138.94 TCP 54 37796 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  179 1.533073867    10.0.3.15 → 142.250.138.94 OCSP 480 Request
+  180 1.533364333 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37796 [ACK] Seq=1 Ack=427 Win=65535 Len=0
+  181 1.541212458 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37810 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  182 1.541228247    10.0.3.15 → 142.250.138.94 TCP 54 37810 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  183 1.541551527    10.0.3.15 → 142.250.138.94 OCSP 481 Request
+  184 1.541903222 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37810 [ACK] Seq=1 Ack=428 Win=65535 Len=0
+  185 1.544362837 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  186 1.558964131    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  187 1.559108256    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  188 1.575710816 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  189 1.596890048 192.229.211.108 → 10.0.3.15    OCSP 855 Response
+  190 1.596900426    10.0.3.15 → 192.229.211.108 TCP 54 36296 → 80 [ACK] Seq=425 Ack=802 Win=63439 Len=0
+  191 1.597729876    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  192 1.598279107    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  193 1.598935128    10.0.3.15 → 34.120.208.123 TLSv1.3 118 Change Cipher Spec, Application Data
+  194 1.599234201 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=3518 Ack=582 Win=65535 Len=0
+  195 1.599732181    10.0.3.15 → 34.120.208.123 TLSv1.3 224 Application Data
+  196 1.600019410 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=3518 Ack=752 Win=65535 Len=0
+  197 1.600093958    10.0.3.15 → 34.120.208.123 TLSv1.3 455 Application Data
+  198 1.600692761 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=3518 Ack=1153 Win=65535 Len=0
+  199 1.600763804    10.0.3.15 → 34.120.208.123 TLSv1.3 433 Application Data
+  200 1.600918149 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=3518 Ack=1532 Win=65535 Len=0
+  201 1.608523578 52.24.103.12 → 10.0.3.15    TCP 60 443 → 60976 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  202 1.608538305    10.0.3.15 → 52.24.103.12 TCP 54 60976 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  203 1.609871476    10.0.3.15 → 52.24.103.12 TLSv1 571 Client Hello
+  204 1.610235104 52.24.103.12 → 10.0.3.15    TCP 60 443 → 60976 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+  205 1.615074992 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  206 1.616195793 34.120.208.123 → 10.0.3.15    TLSv1.3 608 Application Data, Application Data
+  207 1.616261028    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=1532 Ack=4072 Win=62780 Len=0
+  208 1.616734634    10.0.3.15 → 34.120.208.123 TLSv1.3 85 Application Data
+  209 1.617019344 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=4072 Ack=1563 Win=65535 Len=0
+  210 1.617606264 34.120.208.123 → 10.0.3.15    TLSv1.3 85 Application Data
+  211 1.617612723    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=1563 Ack=4103 Win=62780 Len=0
+  212 1.618324846 192.229.211.108 → 10.0.3.15    OCSP 855 Response
+  213 1.618331776    10.0.3.15 → 192.229.211.108 TCP 54 36284 → 80 [ACK] Seq=425 Ack=802 Win=63439 Len=0
+  214 1.619662172    10.0.3.15 → 34.120.208.123 TLSv1.2 248 Application Data
+  215 1.619870196 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48626 [ACK] Seq=3786 Ack=499 Win=65535 Len=0
+  216 1.620195190    10.0.3.15 → 34.120.208.123 TLSv1.3 215 Application Data
+  217 1.620366452 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=4103 Ack=1724 Win=65535 Len=0
+  218 1.620616704    10.0.3.15 → 34.120.208.123 TLSv1.3 414 Application Data
+  219 1.620889239 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=4103 Ack=2084 Win=65535 Len=0
+  220 1.621232550    10.0.3.15 → 34.120.208.123 TLSv1.2 85 Encrypted Alert
+  221 1.621405301 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48626 [ACK] Seq=3786 Ack=530 Win=65535 Len=0
+  222 1.621632532    10.0.3.15 → 34.120.208.123 TCP 54 48626 → 443 [FIN, ACK] Seq=530 Ack=3786 Win=62780 Len=0
+  223 1.621972268 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48626 [ACK] Seq=3786 Ack=531 Win=65535 Len=0
+  224 1.625277019    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  225 1.625478561    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  226 1.636793019 34.120.208.123 → 10.0.3.15    TLSv1.2 92 Application Data
+  227 1.636802237    10.0.3.15 → 34.120.208.123 TCP 54 48626 → 443 [RST] Seq=531 Win=0 Len=0
+  228 1.642241692 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  229 1.652727998    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  230 1.652972377    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  231 1.669873737 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  232 1.681087012    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  233 1.681281947    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  234 1.686555600  10.6.15.200 → 10.0.3.15    DNS 506 Standard query response 0x694b AAAA www.google.com NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30
+  235 1.687558173    10.0.3.15 → 10.6.15.200  DNS 71 Standard query 0x5942 A twitter.com
+  236 1.687633314    10.0.3.15 → 10.6.15.200  DNS 71 Standard query 0x4ef6 AAAA twitter.com
+  237 1.688028832    10.0.3.15 → 216.239.38.120 UDP 1399 47874 → 443 Len=1357
+  238 1.688174468    10.0.3.15 → 216.239.38.120 TCP 74 53680 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2605945102 TSecr=0 WS=128
+  239 1.697981143 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  240 1.708037676    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  241 1.708080626    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  242 1.708192082 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53680 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  243 1.708247576    10.0.3.15 → 216.239.38.120 TCP 54 53680 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  244 1.709636528    10.0.3.15 → 216.239.38.120 TLSv1 571 Client Hello
+  245 1.709790104 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  246 1.710023279 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53680 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+  247 1.710281011    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  248 1.720723369 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  249 1.720905403    10.0.3.15 → 216.239.38.120 UDP 84 47874 → 443 Len=42
+  250 1.720952055 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  251 1.720987750    10.0.3.15 → 216.239.38.120 UDP 84 47874 → 443 Len=42
+  252 1.724874354 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  253 1.727400170 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  254 1.727592954    10.0.3.15 → 216.239.38.120 UDP 84 47874 → 443 Len=42
+  255 1.727656967 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  256 1.727656997 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  257 1.727667887    10.0.3.15 → 216.239.38.120 UDP 84 47874 → 443 Len=42
+  258 1.727848556 216.239.38.120 → 10.0.3.15    UDP 367 443 → 47874 Len=325
+  259 1.728696005    10.0.3.15 → 216.239.38.120 UDP 85 47874 → 443 Len=43
+  260 1.730529773    10.0.3.15 → 142.250.138.94 TCP 74 37814 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1529950262 TSecr=0 WS=128
+  261 1.733217847    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  262 1.733410697    10.0.3.15 → 216.239.38.120 UDP 82 32869 → 443 Len=40
+  263 1.735826515  10.6.15.200 → 10.0.3.15    DNS 510 Standard query response 0x9b6f AAAA blocking.securityconnection.org NS d.root-servers.net NS l.root-servers.net NS b.root-servers.net NS h.root-servers.net NS m.root-servers.net NS g.root-servers.net NS j.root-servers.net NS c.root-servers.net NS f.root-servers.net NS k.root-servers.net NS a.root-servers.net NS e.root-servers.net NS i.root-servers.net A 199.7.91.13 A 199.7.83.42 A 199.9.14.201 A 198.97.190.53 A 202.12.27.33 A 192.112.36.4 A 192.58.128.30 A 192.33.4.12 A 192.5.5.241 A 193.0.14.129 A 198.41.0.4 A 192.203.230.10 A 192.36.148.17
+  264 1.740626210 142.250.138.94 → 10.0.3.15    OCSP 755 Response
+  265 1.740632971    10.0.3.15 → 142.250.138.94 TCP 54 37796 → 80 [ACK] Seq=427 Ack=702 Win=63791 Len=0
+  266 1.740987994 216.239.38.120 → 10.0.3.15    TLSv1.3 1466 Server Hello, Change Cipher Spec
+  267 1.740993860    10.0.3.15 → 216.239.38.120 TCP 54 53680 → 443 [ACK] Seq=518 Ack=1413 Win=63540 Len=0
+  268 1.741480393 216.239.38.120 → 10.0.3.15    TCP 1466 443 → 53680 [PSH, ACK] Seq=1413 Ack=518 Win=65535 Len=1412 [TCP segment of a reassembled PDU]
+  269 1.741480437 216.239.38.120 → 10.0.3.15    TCP 1514 443 → 53680 [ACK] Seq=2825 Ack=518 Win=65535 Len=1460 [TCP segment of a reassembled PDU]
+  270 1.741480456 216.239.38.120 → 10.0.3.15    TLSv1.3 60 Application Data
+  271 1.741487605    10.0.3.15 → 216.239.38.120 TCP 54 53680 → 443 [ACK] Seq=518 Ack=2825 Win=62128 Len=0
+  272 1.741509122    10.0.3.15 → 216.239.38.120 TCP 54 53680 → 443 [ACK] Seq=518 Ack=4285 Win=62128 Len=0
+  273 1.741536043    10.0.3.15 → 216.239.38.120 TCP 54 53680 → 443 [ACK] Seq=518 Ack=4290 Win=62128 Len=0
+  274 1.742872516    10.0.3.15 → 142.250.138.94 OCSP 480 Request
+  275 1.743200990 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37796 [ACK] Seq=702 Ack=853 Win=65535 Len=0
+  276 1.743761484    10.0.3.15 → 216.239.38.120 UDP 152 32869 → 443 Len=110
+  277 1.744181590    10.0.3.15 → 216.239.38.120 UDP 112 32869 → 443 Len=70
+  278 1.746169329    10.0.3.15 → 142.250.138.94 TCP 74 37818 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1529950278 TSecr=0 WS=128
+  279 1.748228758 142.250.138.94 → 10.0.3.15    OCSP 756 Response
+  280 1.748235620    10.0.3.15 → 142.250.138.94 TCP 54 37810 → 80 [ACK] Seq=428 Ack=703 Win=63882 Len=0
+  281 1.749250369    10.0.3.15 → 216.239.38.120 TLSv1.3 118 Change Cipher Spec, Application Data
+  282 1.749475112 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53668 [ACK] Seq=4290 Ack=582 Win=65535 Len=0
+  283 1.749785447    10.0.3.15 → 216.239.38.120 TLSv1.3 224 Application Data
+  284 1.750026091 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53668 [ACK] Seq=4290 Ack=752 Win=65535 Len=0
+  285 1.750302123 216.239.38.120 → 10.0.3.15    UDP 84 443 → 32869 Len=42
+  286 1.761250701 216.239.38.120 → 10.0.3.15    UDP 657 443 → 32869 Len=615
+  287 1.761250757 216.239.38.120 → 10.0.3.15    UDP 138 443 → 32869 Len=96
+  288 1.761499634    10.0.3.15 → 216.239.38.120 UDP 75 32869 → 443 Len=33
+  289 1.766532413 216.239.38.120 → 10.0.3.15    TLSv1.3 699 Application Data, Application Data, Application Data
+  290 1.766538846    10.0.3.15 → 216.239.38.120 TCP 54 53668 → 443 [ACK] Seq=752 Ack=4935 Win=62780 Len=0
+  291 1.766950844    10.0.3.15 → 216.239.38.120 TLSv1.3 85 Application Data
+  292 1.767082435 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53668 [ACK] Seq=4935 Ack=783 Win=65535 Len=0
+  293 1.777376565    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  294 1.777561043    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  295 1.787214590 216.239.38.120 → 10.0.3.15    UDP 69 443 → 32869 Len=27
+  296 1.793735617 52.24.103.12 → 10.0.3.15    TLSv1.2 1514 Server Hello
+  297 1.793781202    10.0.3.15 → 52.24.103.12 TCP 54 60976 → 443 [ACK] Seq=518 Ack=1461 Win=62780 Len=0
+  298 1.794404028 216.239.38.120 → 10.0.3.15    UDP 84 443 → 47874 Len=42
+  299 1.794655266 52.24.103.12 → 10.0.3.15    TLSv1.2 1734 Certificate, Server Key Exchange, Server Hello Done
+  300 1.794661033    10.0.3.15 → 52.24.103.12 TCP 54 60976 → 443 [ACK] Seq=518 Ack=3141 Win=62780 Len=0
+  301 1.796327394    10.0.3.15 → 52.24.103.12 TLSv1.2 180 Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+  302 1.796539361 52.24.103.12 → 10.0.3.15    TCP 60 443 → 60976 [ACK] Seq=3141 Ack=644 Win=65535 Len=0
+  303 1.798306150    10.0.3.15 → 23.220.249.209 OCSP 477 Request
+  304 1.798512908 23.220.249.209 → 10.0.3.15    TCP 60 80 → 41568 [ACK] Seq=889 Ack=847 Win=65535 Len=0
+  305 1.816636765 34.120.208.123 → 10.0.3.15    TLSv1.3 559 Application Data, Application Data
+  306 1.816636823 34.120.208.123 → 10.0.3.15    TLSv1.3 309 Application Data
+  307 1.816644978    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=2084 Ack=4608 Win=62780 Len=0
+  308 1.816681188    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=2084 Ack=4863 Win=62780 Len=0
+  309 1.817470348 34.120.208.123 → 10.0.3.15    TLSv1.3 93 Application Data
+  310 1.817477512    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=2084 Ack=4902 Win=62780 Len=0
+  311 1.818065776    10.0.3.15 → 34.120.208.123 TLSv1.3 93 Application Data
+  312 1.818461204 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=4902 Ack=2123 Win=65535 Len=0
+  313 1.818843149    10.0.3.15 → 10.6.15.200  DNS 103 Standard query 0xca24 AAAA prod.ingestion-edge.prod.dataops.mozgcp.net
+  314 1.819121111    10.0.3.15 → 34.120.208.123 TLSv1.3 178 Application Data
+  315 1.819255449 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=4902 Ack=2247 Win=65535 Len=0
+  316 1.819437387    10.0.3.15 → 34.120.208.123 TLSv1.3 490 Application Data
+  317 1.819706173 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=4902 Ack=2683 Win=65535 Len=0
+  318 1.826099789 34.120.208.123 → 10.0.3.15    TLSv1.3 205 Application Data, Application Data
+  319 1.826261142 34.120.208.123 → 10.0.3.15    TLSv1.3 160 Application Data
+  320 1.826400072    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=2683 Ack=5159 Win=62780 Len=0
+  321 1.833250408    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  322 1.833484787    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  323 1.850014401 216.239.38.120 → 10.0.3.15    UDP 84 443 → 47874 Len=42
+  324 1.889175793    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  325 1.889377084    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  326 1.906297572 216.239.38.120 → 10.0.3.15    UDP 84 443 → 47874 Len=42
+  327 1.918420048 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37814 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  328 1.918442251    10.0.3.15 → 142.250.138.94 TCP 54 37814 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  329 1.918889438    10.0.3.15 → 142.250.138.94 OCSP 481 Request
+  330 1.919259454 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37814 [ACK] Seq=1 Ack=428 Win=65535 Len=0
+  331 1.934334701    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  332 1.934524396    10.0.3.15 → 216.239.38.120 UDP 82 47874 → 443 Len=40
+  333 1.935385242 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37818 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  334 1.935402093    10.0.3.15 → 142.250.138.94 TCP 54 37818 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  335 1.939863844  10.6.15.200 → 10.0.3.15    DNS 550 Standard query response 0x5942 A twitter.com A 197.189.204.175 NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30
+  336 1.940398894  10.6.15.200 → 10.0.3.15    DNS 503 Standard query response 0x4ef6 AAAA twitter.com NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30
+  337 1.940669669    10.0.3.15 → 10.6.15.200  DNS 78 Standard query 0x0c5d A twitter.com.ns2.is
+  338 1.940939124    10.0.3.15 → 10.6.15.200  DNS 78 Standard query 0x1ea3 AAAA twitter.com.ns2.is
+  339 1.950152380 142.250.138.94 → 10.0.3.15    OCSP 755 Response
+  340 1.950161305    10.0.3.15 → 142.250.138.94 TCP 54 37796 → 80 [ACK] Seq=853 Ack=1403 Win=63791 Len=0
+  341 1.951522067 216.239.38.120 → 10.0.3.15    UDP 84 443 → 47874 Len=42
+  342 1.952448850    10.0.3.15 → 216.239.38.120 UDP 152 47874 → 443 Len=110
+  343 1.953196877    10.0.3.15 → 216.239.38.120 UDP 111 47874 → 443 Len=69
+  344 1.953914891    10.0.3.15 → 216.239.38.120 UDP 663 47874 → 443 Len=621
+  345 1.969465143 216.239.38.120 → 10.0.3.15    UDP 657 443 → 47874 Len=615
+  346 1.969465259 216.239.38.120 → 10.0.3.15    UDP 138 443 → 47874 Len=96
+  347 1.971969469 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  348 1.974608784    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  349 1.977555472 52.24.103.12 → 10.0.3.15    TLSv1.2 105 Change Cipher Spec, Encrypted Handshake Message
+  350 1.977571916    10.0.3.15 → 52.24.103.12 TCP 54 60976 → 443 [ACK] Seq=644 Ack=3192 Win=62780 Len=0
+  351 2.038711487 23.220.249.209 → 10.0.3.15    OCSP 943 Response
+  352 2.038731494    10.0.3.15 → 23.220.249.209 TCP 54 41568 → 80 [ACK] Seq=847 Ack=1778 Win=63936 Len=0
+  353 2.041153678    10.0.3.15 → 52.24.103.12 TLSv1.2 689 Application Data
+  354 2.041616948 52.24.103.12 → 10.0.3.15    TCP 60 443 → 60976 [ACK] Seq=3192 Ack=1279 Win=65535 Len=0
+  355 2.042646767 34.120.208.123 → 10.0.3.15    TLSv1.3 245 Application Data, Application Data
+  356 2.042805533 34.120.208.123 → 10.0.3.15    TLSv1.3 310 Application Data
+  357 2.042950901 34.120.208.123 → 10.0.3.15    TLSv1.3 93 Application Data
+  358 2.043050616    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=2683 Ack=5645 Win=62780 Len=0
+  359 2.043182632    10.0.3.15 → 34.120.208.123 TLSv1.3 93 Application Data
+  360 2.043392501 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=5645 Ack=2722 Win=65535 Len=0
+  361 2.046738409    10.0.3.15 → 34.120.208.123 TLSv1.3 178 Application Data
+  362 2.046930637    10.0.3.15 → 34.120.208.123 TLSv1.3 744 Application Data
+  363 2.047253846 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=5645 Ack=2846 Win=65535 Len=0
+  364 2.047418649 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=5645 Ack=3536 Win=65535 Len=0
+  365 2.070504164  10.6.15.200 → 10.0.3.15    DNS 532 Standard query response 0xca24 AAAA prod.ingestion-edge.prod.dataops.mozgcp.net NS k.gtld-servers.net NS l.gtld-servers.net NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net NS f.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS g.gtld-servers.net A 192.52.178.30 A 192.41.162.30 A 192.5.6.30 A 192.55.83.30 A 192.48.79.30 A 192.35.51.30 A 192.26.92.30 A 192.54.112.30 A 192.12.94.30 A 192.31.80.30 A 192.33.14.30 A 192.43.172.30 A 192.42.93.30
+  366 2.083380805 216.239.38.120 → 10.0.3.15    UDP 1395 443 → 47874 Len=1353
+  367 2.083601578 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  368 2.083601601 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  369 2.083741255 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  370 2.083859332 216.239.38.120 → 10.0.3.15    UDP 445 443 → 47874 Len=403
+  371 2.083974626 216.239.38.120 → 10.0.3.15    UDP 132 443 → 47874 Len=90
+  372 2.084272880    10.0.3.15 → 216.239.38.120 UDP 78 47874 → 443 Len=36
+  373 2.113297120 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+  374 2.113297471 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  375 2.113678000 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  376 2.113678051 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  377 2.113678077 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  378 2.114162003 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  379 2.114162031 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  380 2.114162065 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  381 2.114365119 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  382 2.114437174    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  383 2.114582704 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  384 2.115000608 216.239.38.120 → 10.0.3.15    UDP 190 443 → 47874 Len=148
+  385 2.115999144    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  386 2.126121452 142.250.138.94 → 10.0.3.15    OCSP 756 Response
+  387 2.126141721    10.0.3.15 → 142.250.138.94 TCP 54 37814 → 80 [ACK] Seq=428 Ack=703 Win=63882 Len=0
+  388 2.139942189    10.0.3.15 → 10.6.15.200  DNS 103 Standard query 0x9081 AAAA prod.ingestion-edge.prod.dataops.mozgcp.net
+  389 2.141093966    10.0.3.15 → 34.120.208.123 TLSv1.3 199 Application Data
+  390 2.141250981    10.0.3.15 → 34.120.208.123 TLSv1.3 612 Application Data
+  391 2.141385126 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=5645 Ack=3681 Win=65535 Len=0
+  392 2.141385241 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=5645 Ack=4239 Win=65535 Len=0
+  393 2.143431166    10.0.3.15 → 216.239.38.120 TLSv1.3 118 Change Cipher Spec, Application Data
+  394 2.143805274 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53680 [ACK] Seq=4290 Ack=582 Win=65535 Len=0
+  395 2.143990134    10.0.3.15 → 216.239.38.120 TLSv1.3 224 Application Data
+  396 2.144360069 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53680 [ACK] Seq=4290 Ack=752 Win=65535 Len=0
+  397 2.161202314 216.239.38.120 → 10.0.3.15    TLSv1.3 699 Application Data, Application Data, Application Data
+  398 2.161221619    10.0.3.15 → 216.239.38.120 TCP 54 53680 → 443 [ACK] Seq=752 Ack=4935 Win=62780 Len=0
+  399 2.162077117    10.0.3.15 → 216.239.38.120 TLSv1.3 85 Application Data
+  400 2.162466968 216.239.38.120 → 10.0.3.15    TCP 60 443 → 53680 [ACK] Seq=4935 Ack=783 Win=65535 Len=0
+  401 2.215163930    10.0.3.15 → 216.239.38.120 UDP 571 47874 → 443 Len=529
+  402 2.215599214    10.0.3.15 → 216.239.38.120 UDP 77 47874 → 443 Len=35
+  403 2.217145604    10.0.3.15 → 10.6.15.200  DNS 77 Standard query 0xd1dd AAAA fonts.gstatic.com
+  404 2.218477137  10.6.15.200 → 10.0.3.15    DNS 537 Standard query response 0xd1dd AAAA fonts.gstatic.com AAAA 2607:f8b0:4000:810::2003 NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30
+  405 2.219256937    10.0.3.15 → 142.251.33.3 UDP 1399 57218 → 443 Len=1357
+  406 2.221853579    10.0.3.15 → 216.239.38.120 UDP 567 47874 → 443 Len=525
+  407 2.225384171 52.24.103.12 → 10.0.3.15    TLSv1.2 212 Application Data
+  408 2.225405333    10.0.3.15 → 52.24.103.12 TCP 54 60976 → 443 [ACK] Seq=1279 Ack=3350 Win=62780 Len=0
+  409 2.227197080 34.120.208.123 → 10.0.3.15    TLSv1.3 343 Application Data, Application Data
+  410 2.227790326 34.120.208.123 → 10.0.3.15    TLSv1.3 87 Application Data
+  411 2.228005114 34.120.208.123 → 10.0.3.15    TLSv1.3 93 Application Data
+  412 2.231917695    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=4239 Ack=6006 Win=62780 Len=0
+  413 2.232225735    10.0.3.15 → 34.120.208.123 TLSv1.3 93 Application Data
+  414 2.232745394 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=6006 Ack=4278 Win=65535 Len=0
+  415 2.232745462 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  416 2.232955825 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+  417 2.233150208    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  418 2.233937128    10.0.3.15 → 216.239.38.120 UDP 77 47874 → 443 Len=35
+  419 2.238350510    10.0.3.15 → 34.120.208.123 TLSv1.3 177 Application Data
+  420 2.238748359 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=6006 Ack=4401 Win=65535 Len=0
+  421 2.238813089    10.0.3.15 → 34.120.208.123 TLSv1.3 872 Application Data
+  422 2.238980971 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  423 2.239200937 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=6006 Ack=5219 Win=65535 Len=0
+  424 2.250214541    10.0.3.15 → 52.24.103.12 TLSv1.2 200 Application Data
+  425 2.250389246 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+  426 2.250614188 52.24.103.12 → 10.0.3.15    TCP 60 443 → 60976 [ACK] Seq=3350 Ack=1425 Win=65535 Len=0
+  427 2.250769124    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  428 2.297403988 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  429 2.297404198 216.239.38.120 → 10.0.3.15    UDP 963 443 → 47874 Len=921
+  430 2.297861716    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  431 2.302408292 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  432 2.302408447 216.239.38.120 → 10.0.3.15    UDP 496 443 → 47874 Len=454
+  433 2.302743222    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  434 2.303243007  10.6.15.200 → 10.0.3.15    DNS 78 Standard query response 0x0c5d No such name A twitter.com.ns2.is
+  435 2.304225861 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  436 2.304225896 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  437 2.304770304    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  438 2.305211470 216.239.38.120 → 10.0.3.15    UDP 329 443 → 47874 Len=287
+  439 2.305211517 216.239.38.120 → 10.0.3.15    UDP 130 443 → 47874 Len=88
+  440 2.305655255    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  441 2.317406101    10.0.3.15 → 142.251.32.99 UDP 1399 51949 → 443 Len=1357
+  442 2.324102723 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  443 2.324102847 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  444 2.324365093 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  445 2.324365292 216.239.38.120 → 10.0.3.15    UDP 462 443 → 47874 Len=420
+  446 2.325292103    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  447 2.330312365 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  448 2.330486686 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  449 2.330486724 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  450 2.330637054 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  451 2.330774109 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  452 2.330888359 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  453 2.331001777 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  454 2.331130049 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  455 2.331473559 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  456 2.331589722 216.239.38.120 → 10.0.3.15    UDP 640 443 → 47874 Len=598
+  457 2.332976934    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  458 2.350812482 34.120.208.123 → 10.0.3.15    TLSv1.3 271 Application Data, Application Data
+  459 2.350813149 34.120.208.123 → 10.0.3.15    TLSv1.3 277 Application Data, Application Data
+  460 2.351124063    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=5219 Ack=6446 Win=62780 Len=0
+  461 2.351271996    10.0.3.15 → 34.120.208.123 TLSv1.3 93 Application Data
+  462 2.351472652 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=6446 Ack=5258 Win=65535 Len=0
+  463 2.365925170    10.0.3.15 → 216.239.38.120 UDP 546 47874 → 443 Len=504
+  464 2.366267209    10.0.3.15 → 216.239.38.120 UDP 77 47874 → 443 Len=35
+  465 2.382234546    10.0.3.15 → 216.239.38.120 UDP 693 47874 → 443 Len=651
+  466 2.383088014 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  467 2.383251268 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+  468 2.383356386    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  469 2.392835593  10.6.15.200 → 10.0.3.15    DNS 532 Standard query response 0x9081 AAAA prod.ingestion-edge.prod.dataops.mozgcp.net NS l.gtld-servers.net NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net NS f.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS g.gtld-servers.net NS k.gtld-servers.net A 192.41.162.30 A 192.5.6.30 A 192.55.83.30 A 192.48.79.30 A 192.35.51.30 A 192.26.92.30 A 192.54.112.30 A 192.12.94.30 A 192.31.80.30 A 192.33.14.30 A 192.43.172.30 A 192.42.93.30 A 192.52.178.30
+  470 2.399405847 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  471 2.409768133 142.251.33.3 → 10.0.3.15    UDP 1399 443 → 57218 Len=1357
+  472 2.410302019    10.0.3.15 → 142.251.33.3 UDP 82 57218 → 443 Len=40
+  473 2.410877303 142.251.33.3 → 10.0.3.15    UDP 1399 443 → 57218 Len=1357
+  474 2.410877354 142.251.33.3 → 10.0.3.15    UDP 1399 443 → 57218 Len=1357
+  475 2.411006458    10.0.3.15 → 142.251.33.3 UDP 84 57218 → 443 Len=42
+  476 2.415357999 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  477 2.415358153 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  478 2.415524968    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  479 2.415629748 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  480 2.415629778 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  481 2.415730077    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  482 2.415919072 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  483 2.416239813 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  484 2.416430004 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  485 2.416430041 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  486 2.416413343    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  487 2.416540764    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  488 2.416617325 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  489 2.416984513 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  490 2.416984546 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  491 2.417119028    10.0.3.15 → 216.239.38.120 UDP 79 47874 → 443 Len=37
+  492 2.417243994 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  493 2.417486917 216.239.38.120 → 10.0.3.15    UDP 374 443 → 47874 Len=332
+  494 2.417486948 216.239.38.120 → 10.0.3.15    UDP 81 443 → 47874 Len=39
+  495 2.417631833    10.0.3.15 → 216.239.38.120 UDP 79 47874 → 443 Len=37
+  496 2.431605938 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  497 2.431606105 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  498 2.432014756 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  499 2.432014954 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  500 2.432012747    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  501 2.432610748    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  502 2.434033402 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  503 2.434033486 52.24.103.12 → 10.0.3.15    TLSv1.2 198 Application Data
+  504 2.434033505 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  505 2.434084062    10.0.3.15 → 52.24.103.12 TCP 54 60976 → 443 [ACK] Seq=1425 Ack=3494 Win=62780 Len=0
+  506 2.434487247    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  507 2.434990581 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  508 2.435186501 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  509 2.435256381    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  510 2.435888788 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  511 2.435888824 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  512 2.435995672    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  513 2.436064928 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  514 2.436198755 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  515 2.436302632    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  516 2.437776296 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  517 2.437956985 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  518 2.438041749    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  519 2.438117037 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  520 2.439599788 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  521 2.439599853 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  522 2.439922936    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  523 2.440067850 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  524 2.440067911 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  525 2.440067938 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  526 2.440480555    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  527 2.441907560 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  528 2.442165891 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  529 2.442165936 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  530 2.442255374    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  531 2.442390165 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  532 2.443844477 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  533 2.443975044    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  534 2.444222917 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  535 2.444531063 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  536 2.444751658    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  537 2.444852471 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  538 2.446963251 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  539 2.446963360 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  540 2.447191113    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  541 2.447282808 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  542 2.447282842 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  543 2.447392638    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  544 2.448138533 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  545 2.448365798 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  546 2.448365845 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  547 2.448440870    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  548 2.448552468 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  549 2.450417269 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  550 2.450417350 216.239.38.120 → 10.0.3.15    UDP 1161 443 → 47874 Len=1119
+  551 2.450535918    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  552 2.451245267 34.120.208.123 → 10.0.3.15    TLSv1.3 409 Application Data, Application Data, Application Data, Application Data
+  553 2.451395367    10.0.3.15 → 34.120.208.123 TLSv1.3 93 Application Data
+  554 2.451681473 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=6801 Ack=5297 Win=65535 Len=0
+  555 2.494058839    10.0.3.15 → 34.120.208.123 TLSv1.3 177 Application Data
+  556 2.494132112    10.0.3.15 → 10.6.15.200  DNS 103 Standard query 0xe900 AAAA prod.ingestion-edge.prod.dataops.mozgcp.net
+  557 2.494186858    10.0.3.15 → 34.120.208.123 TLSv1.3 908 Application Data
+  558 2.494575332 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=6801 Ack=5420 Win=65535 Len=0
+  559 2.494575400 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=6801 Ack=6274 Win=65535 Len=0
+  560 2.512134338    10.0.3.15 → 216.239.38.120 UDP 538 47874 → 443 Len=496
+  561 2.513492484    10.0.3.15 → 216.239.38.120 UDP 77 47874 → 443 Len=35
+  562 2.522095138 142.251.32.99 → 10.0.3.15    UDP 1399 443 → 51949 Len=1357
+  563 2.523676871    10.0.3.15 → 142.251.32.99 UDP 82 51949 → 443 Len=40
+  564 2.528246731 142.251.32.99 → 10.0.3.15    UDP 1399 443 → 51949 Len=1357
+  565 2.528246859 142.251.32.99 → 10.0.3.15    UDP 1399 443 → 51949 Len=1357
+  566 2.528853263    10.0.3.15 → 142.251.32.99 UDP 84 51949 → 443 Len=42
+  567 2.531398325 216.239.38.120 → 10.0.3.15    UDP 437 443 → 47874 Len=395
+  568 2.531398377 216.239.38.120 → 10.0.3.15    UDP 1395 443 → 47874 Len=1353
+  569 2.531595370    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+  570 2.531639500 216.239.38.120 → 10.0.3.15    UDP 416 443 → 47874 Len=374
+  571 2.548279596 216.239.38.120 → 10.0.3.15    UDP 71 443 → 47874 Len=29
+  572 2.552894488    10.0.3.15 → 216.239.38.120 UDP 76 47874 → 443 Len=34
+  573 2.568991540 216.239.38.120 → 10.0.3.15    UDP 235 443 → 47874 Len=193
+  574 2.569129190    10.0.3.15 → 216.239.38.120 UDP 77 47874 → 443 Len=35
+  575 2.600765613 142.251.33.3 → 10.0.3.15    UDP 1399 443 → 57218 Len=1357
+  576 2.600765816 142.251.33.3 → 10.0.3.15    UDP 564 443 → 57218 Len=522
+  577 2.601986070    10.0.3.15 → 142.251.33.3 UDP 85 57218 → 443 Len=43
+  578 2.607552570    10.0.3.15 → 142.250.138.94 OCSP 480 Request
+  579 2.607947859 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37814 [ACK] Seq=703 Ack=854 Win=65535 Len=0
+  580 2.658620598  10.6.15.200 → 10.0.3.15    DNS 78 Standard query response 0x1ea3 No such name AAAA twitter.com.ns2.is
+  581 2.660264586    10.0.3.15 → 10.6.15.200  DNS 71 Standard query 0xc896 A twitter.com
+  582 2.660584121    10.0.3.15 → 10.6.15.200  DNS 71 Standard query 0xc4e7 AAAA twitter.com
+  583 2.670896519    10.0.3.15 → 216.239.38.120 UDP 849 47874 → 443 Len=807
+  584 2.677702301 34.120.208.123 → 10.0.3.15    TLSv1.3 237 Application Data, Application Data
+  585 2.677702417 34.120.208.123 → 10.0.3.15    TLSv1.3 154 Application Data, Application Data
+  586 2.678052827    10.0.3.15 → 34.120.208.123 TCP 54 48630 → 443 [ACK] Seq=6274 Ack=7084 Win=62780 Len=0
+  587 2.678106812    10.0.3.15 → 34.120.208.123 TLSv1.3 93 Application Data
+  588 2.678403331 34.120.208.123 → 10.0.3.15    TCP 60 443 → 48630 [ACK] Seq=7084 Ack=6313 Win=65535 Len=0
+  589 2.688644796 216.239.38.120 → 10.0.3.15    UDP 75 443 → 47874 Len=33
+  590 2.704833049 216.239.38.120 → 10.0.3.15    UDP 244 443 → 47874 Len=202
+  591 2.704833248 216.239.38.120 → 10.0.3.15    UDP 66 443 → 47874 Len=24
+  592 2.705134437    10.0.3.15 → 216.239.38.120 UDP 79 47874 → 443 Len=37
+  593 2.727368907 142.251.32.99 → 10.0.3.15    UDP 1399 443 → 51949 Len=1357
+  594 2.727578268    10.0.3.15 → 142.251.32.99 UDP 84 51949 → 443 Len=42
+  595 2.727616816 142.251.32.99 → 10.0.3.15    UDP 569 443 → 51949 Len=527
+  596 2.729414258    10.0.3.15 → 142.251.32.99 UDP 85 51949 → 443 Len=43
+  597 2.731598339    10.0.3.15 → 142.250.138.94 OCSP 480 Request
+  598 2.731858237 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37796 [ACK] Seq=1403 Ack=1279 Win=65535 Len=0
+  599 2.745926226  10.6.15.200 → 10.0.3.15    DNS 532 Standard query response 0xe900 AAAA prod.ingestion-edge.prod.dataops.mozgcp.net NS a.gtld-servers.net NS m.gtld-servers.net NS j.gtld-servers.net NS f.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS g.gtld-servers.net NS k.gtld-servers.net NS l.gtld-servers.net A 192.5.6.30 A 192.55.83.30 A 192.48.79.30 A 192.35.51.30 A 192.26.92.30 A 192.54.112.30 A 192.12.94.30 A 192.31.80.30 A 192.33.14.30 A 192.43.172.30 A 192.42.93.30 A 192.52.178.30 A 192.41.162.30
+  600 2.747097117 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  601 2.756231500    10.0.3.15 → 216.239.38.120 UDP 581 47874 → 443 Len=539
+  602 2.762933616    10.0.3.15 → 216.239.38.120 UDP 874 47874 → 443 Len=832
+  603 2.764385360    10.0.3.15 → 216.239.38.120 UDP 581 47874 → 443 Len=539
+  604 2.766468979    10.0.3.15 → 216.239.38.120 UDP 665 47874 → 443 Len=623
+  605 2.773573917 216.239.38.120 → 10.0.3.15    UDP 75 443 → 47874 Len=33
+  606 2.775965394    10.0.3.15 → 216.239.38.120 UDP 1399 47874 → 443 Len=1357
+  607 2.776045616    10.0.3.15 → 216.239.38.120 UDP 725 47874 → 443 Len=683
+  608 2.780599515 216.239.38.120 → 10.0.3.15    UDP 75 443 → 47874 Len=33
+  609 2.780855167    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  610 2.781465976    10.0.3.15 → 216.239.38.120 UDP 582 47874 → 443 Len=540
+  611 2.782020936 216.239.38.120 → 10.0.3.15    UDP 75 443 → 47874 Len=33
+  612 2.783679994 216.239.38.120 → 10.0.3.15    UDP 75 443 → 47874 Len=33
+  613 2.783915500    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  614 2.792548691 216.239.38.120 → 10.0.3.15    UDP 245 443 → 47874 Len=203
+  615 2.792950360    10.0.3.15 → 216.239.38.120 UDP 78 47874 → 443 Len=36
+  616 2.793040323 216.239.38.120 → 10.0.3.15    UDP 66 443 → 47874 Len=24
+  617 2.793048779    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  618 2.795803968 216.239.38.120 → 10.0.3.15    UDP 71 443 → 47874 Len=29
+  619 2.795803998 216.239.38.120 → 10.0.3.15    UDP 67 443 → 47874 Len=25
+  620 2.796006587 216.239.38.120 → 10.0.3.15    UDP 245 443 → 47874 Len=203
+  621 2.796147708 216.239.38.120 → 10.0.3.15    UDP 66 443 → 47874 Len=24
+  622 2.796184045    10.0.3.15 → 216.239.38.120 UDP 84 47874 → 443 Len=42
+  623 2.800307658 216.239.38.120 → 10.0.3.15    UDP 75 443 → 47874 Len=33
+  624 2.800444552    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  625 2.802341654    10.0.3.15 → 142.251.33.3 UDP 1399 59055 → 443 Len=1357
+  626 2.803354401    10.0.3.15 → 10.6.15.200  DNS 71 Standard query 0x77bd A i.ytimg.com
+  627 2.803651840    10.0.3.15 → 10.6.15.200  DNS 71 Standard query 0xb379 AAAA i.ytimg.com
+  628 2.813093480 216.239.38.120 → 10.0.3.15    UDP 71 443 → 47874 Len=29
+  629 2.816849353 142.250.138.94 → 10.0.3.15    OCSP 755 Response
+  630 2.816868711    10.0.3.15 → 142.250.138.94 TCP 54 37814 → 80 [ACK] Seq=854 Ack=1404 Win=63882 Len=0
+  631 2.818180770    10.0.3.15 → 142.251.33.3 UDP 152 57218 → 443 Len=110
+  632 2.818322584    10.0.3.15 → 142.251.33.3 UDP 113 57218 → 443 Len=71
+  633 2.819210832 216.239.38.120 → 10.0.3.15    UDP 330 443 → 47874 Len=288
+  634 2.819210869 216.239.38.120 → 10.0.3.15    UDP 66 443 → 47874 Len=24
+  635 2.819533139    10.0.3.15 → 216.239.38.120 UDP 79 47874 → 443 Len=37
+  636 2.826381087 216.239.38.120 → 10.0.3.15    UDP 1078 443 → 47874 Len=1036
+  637 2.826743885    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  638 2.827531411 216.239.38.120 → 10.0.3.15    UDP 204 443 → 47874 Len=162
+  639 2.827816348    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  640 2.843446935 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  641 2.863870751    10.0.3.15 → 10.6.15.200  DNS 77 Standard query 0x4ccd AAAA plus.l.google.com
+  642 2.865476525  10.6.15.200 → 10.0.3.15    DNS 537 Standard query response 0x4ccd AAAA plus.l.google.com AAAA 2607:f8b0:4000:819::200e NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30 A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30
+  643 2.866252105    10.0.3.15 → 142.250.176.206 UDP 1399 54813 → 443 Len=1357
+  644 2.870256350 216.239.38.120 → 10.0.3.15    UDP 1395 443 → 47874 Len=1353
+  645 2.870517398 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  646 2.870517464 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  647 2.870544675    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  648 2.870886594    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  649 2.870979204 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  650 2.870979273 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  651 2.871146295    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  652 2.871283080 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  653 2.871464584 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  654 2.871608814 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  655 2.871780500 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  656 2.871862806    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  657 2.871967018 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  658 2.871967048 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  659 2.872089440    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  660 2.872140166 216.239.38.120 → 10.0.3.15    UDP 645 443 → 47874 Len=603
+  661 2.872337022 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+  662 2.872750642 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  663 2.872750673 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  664 2.872750701 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  665 2.872747476    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  666 2.872864561    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  667 2.872909888 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  668 2.873057122 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  669 2.873160338    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  670 2.874136198 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  671 2.874136301 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  672 2.874268276    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  673 2.874371151 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  674 2.874599010 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  675 2.874599038 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  676 2.874819296    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  677 2.874900159 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  678 2.874900191 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  679 2.875065686    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  680 2.875123138 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  681 2.875309805 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  682 2.875309861 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  683 2.875468279    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  684 2.875532910 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  685 2.875757484 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  686 2.875757521 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  687 2.875886760    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  688 2.876848647 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  689 2.879411550 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  690 2.879583883    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  691 2.879809145 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  692 2.879809241 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  693 2.879809279 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  694 2.880032998    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  695 2.880142142 216.239.38.120 → 10.0.3.15    UDP 928 443 → 47874 Len=886
+  696 2.902109686    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  697 2.902308450    10.0.3.15 → 142.251.33.3 TCP 74 59538 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=3803961674 TSecr=0 WS=128
+  698 2.908093849 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  699 2.908255718 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  700 2.908288001    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  701 2.908392630 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  702 2.908999591 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  703 2.909085256    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+  704 2.909191479 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  705 2.909191505 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  706 2.909293861    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  707 2.909790192 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  708 2.910016411 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  709 2.910016438 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  710 2.910215911    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  711 2.910283534 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  712 2.910283559 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  713 2.910322698    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  714 2.910436848 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  715 2.910609707 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  716 2.910742342    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  717 2.910783076 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  718 2.910926242 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  719 2.911044360    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  720 2.911132038 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  721 2.911279823 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  722 2.911368721    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  723 2.911468687 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  724 2.911468713 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  725 2.911587799    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  726 2.911648161 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  727 2.911796135 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  728 2.911888858    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  729 2.911960257 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  730 2.912135086 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  731 2.912307177 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  732 2.912307203  10.6.15.200 → 10.0.3.15    DNS 564 Standard query response 0xc896 A twitter.com CNAME blocking.securityconnection.org A 197.189.204.175 NS i.gtld-servers.net NS m.gtld-servers.net NS h.gtld-servers.net NS e.gtld-servers.net NS l.gtld-servers.net NS f.gtld-servers.net NS j.gtld-servers.net NS k.gtld-servers.net NS d.gtld-servers.net NS b.gtld-servers.net NS a.gtld-servers.net NS g.gtld-servers.net NS c.gtld-servers.net A 192.43.172.30 A 192.55.83.30 A 192.54.112.30 A 192.12.94.30 A 192.41.162.30 A 192.35.51.30 A 192.48.79.30 A 192.52.178.30 A 192.31.80.30 A 192.33.14.30 A 192.5.6.30 A 192.42.93.30 A 192.26.92.30
+  733 2.912307228 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  734 2.912345923    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  735 2.912742732 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  736 2.914411170 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  737 2.914524541    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  738 2.914719904 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  739 2.914719958 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  740 2.915083066    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  741 2.915196225 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  742 2.915196312 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  743 2.915196333 216.239.38.120 → 10.0.3.15    UDP 859 443 → 47874 Len=817
+  744 2.915388220    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  745 2.941186900 142.250.138.94 → 10.0.3.15    OCSP 755 Response
+  746 2.941204549    10.0.3.15 → 142.250.138.94 TCP 54 37796 → 80 [ACK] Seq=1279 Ack=2104 Win=63791 Len=0
+  747 2.942475060    10.0.3.15 → 142.251.32.99 UDP 152 51949 → 443 Len=110
+  748 2.942556416    10.0.3.15 → 142.251.32.99 UDP 111 51949 → 443 Len=69
+  749 2.950736921    10.0.3.15 → 216.239.38.120 UDP 1399 47874 → 443 Len=1357
+  750 2.950868407    10.0.3.15 → 216.239.38.120 UDP 1017 47874 → 443 Len=975
+  751 2.969224633 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  752 2.969470024 216.239.38.120 → 10.0.3.15    UDP 67 443 → 47874 Len=25
+  753 2.990834169    10.0.3.15 → 216.239.38.120 UDP 76 47874 → 443 Len=34
+  754 2.993379480 142.251.33.3 → 10.0.3.15    UDP 1399 443 → 59055 Len=1357
+  755 2.993965729    10.0.3.15 → 142.251.33.3 UDP 82 59055 → 443 Len=40
+  756 2.994472737 142.251.33.3 → 10.0.3.15    UDP 1399 443 → 59055 Len=1357
+  757 2.994677580    10.0.3.15 → 142.251.33.3 UDP 84 59055 → 443 Len=42
+  758 2.994915462 142.251.33.3 → 10.0.3.15    UDP 1399 443 → 59055 Len=1357
+  759 2.995081607    10.0.3.15 → 142.251.33.3 UDP 84 59055 → 443 Len=42
+  760 2.999949398  10.6.15.200 → 10.0.3.15    DNS 116 Standard query response 0xc4e7 AAAA twitter.com CNAME blocking.securityconnection.org
+  761 3.000134133    10.0.3.15 → 10.6.15.200  DNS 91 Standard query 0x5ebf AAAA blocking.securityconnection.org
+  762 3.007568007 142.251.33.3 → 10.0.3.15    UDP 657 443 → 57218 Len=615
+  763 3.007807814 142.251.33.3 → 10.0.3.15    UDP 139 443 → 57218 Len=97
+  764 3.008422548    10.0.3.15 → 142.251.33.3 UDP 73 57218 → 443 Len=31
+  765 3.032030441 216.239.38.120 → 10.0.3.15    UDP 1395 443 → 47874 Len=1353
+  766 3.032397296 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  767 3.032397328 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  768 3.032397357 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  769 3.032791315    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+  770 3.033126422 142.251.33.3 → 10.0.3.15    UDP 69 443 → 57218 Len=27
+  771 3.033126487 216.239.38.120 → 10.0.3.15    UDP 119 443 → 47874 Len=77
+  772 3.033126517 216.239.38.120 → 10.0.3.15    UDP 132 443 → 47874 Len=90
+  773 3.033126546 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+  774 3.033126586 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  775 3.033126615 216.239.38.120 → 10.0.3.15    UDP 1315 443 → 47874 Len=1273
+  776 3.033159363    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  777 3.036153637 216.239.38.120 → 10.0.3.15    UDP 70 443 → 47874 Len=28
+  778 3.036471746 216.239.38.120 → 10.0.3.15    UDP 196 443 → 47874 Len=154
+  779 3.036585815    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  780 3.055174283 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+  781 3.057046241  10.6.15.200 → 10.0.3.15    DNS 551 Standard query response 0x77bd A i.ytimg.com A 142.250.64.118 A 142.250.65.182 A 142.251.41.22 A 142.250.64.86 A 142.250.65.246 A 142.251.40.118 A 142.250.81.246 A 142.251.40.150 A 142.250.65.214 A 172.217.165.150 A 142.251.40.246 A 142.251.40.182 A 142.251.32.118 A 142.250.80.54 A 142.251.35.182 A 142.250.72.118 NS f.gtld-servers.net NS k.gtld-servers.net NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS d.gtld-servers.net NS j.gtld-servers.net NS m.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net
+  782 3.057367381  10.6.15.200 → 10.0.3.15    DNS 407 Standard query response 0xb379 AAAA i.ytimg.com AAAA 2607:f8b0:4000:805::2016 AAAA 2607:f8b0:4000:80a::2016 AAAA 2607:f8b0:4000:81b::2016 AAAA 2607:f8b0:4000:80b::2016 NS k.gtld-servers.net NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS d.gtld-servers.net NS j.gtld-servers.net NS m.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net NS f.gtld-servers.net
+  783 3.058041944    10.0.3.15 → 142.250.64.118 TCP 74 46112 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=740743234 TSecr=0 WS=128
+  784 3.058128202    10.0.3.15 → 142.250.64.118 TCP 74 46122 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=740743234 TSecr=0 WS=128
+  785 3.058192363    10.0.3.15 → 142.250.64.118 TCP 74 46126 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=740743234 TSecr=0 WS=128
+  786 3.064931671 216.239.38.120 → 10.0.3.15    UDP 1395 443 → 47874 Len=1353
+  787 3.064931796 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  788 3.065176139 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  789 3.065393299 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  790 3.065370830    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+  791 3.065606301 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  792 3.065713324    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  793 3.065830979 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  794 3.066054413 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  795 3.066054449 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  796 3.066157236    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  797 3.066274575 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  798 3.066274599 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  799 3.066386021    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  800 3.066498480 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  801 3.066767312 216.239.38.120 → 10.0.3.15    UDP 368 443 → 47874 Len=326
+  802 3.066890193    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  803 3.066986405 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+  804 3.067202616 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  805 3.067301129    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  806 3.067421498 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  807 3.067421534 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  808 3.067554339    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  809 3.067729467 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  810 3.067946756 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  811 3.067946802 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  812 3.068044336    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  813 3.068295942 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  814 3.068548652 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  815 3.068548687 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  816 3.068548711 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  817 3.068782706    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  818 3.068858517 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  819 3.069044227 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  820 3.069214339    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  821 3.069343524 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  822 3.069343553 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  823 3.069343586 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  824 3.069605012 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  825 3.069857681 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  826 3.070046575    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  827 3.070677028 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  828 3.070875202 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  829 3.070988938    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  830 3.073909008 142.250.176.206 → 10.0.3.15    UDP 1399 443 → 54813 Len=1357
+  831 3.073909164 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  832 3.074252511 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  833 3.074252592 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  834 3.074542829 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  835 3.074542867 216.239.38.120 → 10.0.3.15    UDP 928 443 → 47874 Len=886
+  836 3.075010628    10.0.3.15 → 142.250.176.206 UDP 82 54813 → 443 Len=40
+  837 3.075275505    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  838 3.078348106 142.250.176.206 → 10.0.3.15    UDP 1399 443 → 54813 Len=1357
+  839 3.078348166 142.250.176.206 → 10.0.3.15    UDP 1399 443 → 54813 Len=1357
+  840 3.078531350    10.0.3.15 → 142.250.176.206 UDP 84 54813 → 443 Len=42
+  841 3.089305323 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+  842 3.093704266 142.251.33.3 → 10.0.3.15    TCP 60 443 → 59538 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  843 3.093731531    10.0.3.15 → 142.251.33.3 TCP 54 59538 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  844 3.102078503 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  845 3.102422722 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  846 3.102422776 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  847 3.103010134 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  848 3.103010171 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  849 3.103229027 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  850 3.103407025 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  851 3.103407073 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  852 3.103584450 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  853 3.104007091 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  854 3.104198924 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  855 3.104716030 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  856 3.104716075 216.239.38.120 → 10.0.3.15    UDP 491 443 → 47874 Len=449
+  857 3.104943341 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  858 3.104943383 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  859 3.105178315 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  860 3.105178341 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  861 3.105393153 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  862 3.105838072 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  863 3.105838099 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  864 3.105838133 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  865 3.106067228 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  866 3.106240027 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  867 3.106432407 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  868 3.106432446 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  869 3.106617094 216.239.38.120 → 10.0.3.15    UDP 505 443 → 47874 Len=463
+  870 3.114903263    10.0.3.15 → 142.251.33.3 TLSv1 571 Client Hello
+  871 3.115386439 142.251.33.3 → 10.0.3.15    TCP 60 443 → 59538 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+  872 3.115851503    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  873 3.138717638 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  874 3.138717897 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  875 3.138717926 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  876 3.138879640 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  877 3.139044279 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  878 3.139310988 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  879 3.139311015 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  880 3.139597055 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  881 3.139790979 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  882 3.140044451 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  883 3.140044484 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  884 3.140493692 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  885 3.140493719 216.239.38.120 → 10.0.3.15    UDP 505 443 → 47874 Len=463
+  886 3.140493756 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  887 3.140854508 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  888 3.140854560 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  889 3.141043549 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  890 3.141232124 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  891 3.141422594 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  892 3.141587606 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  893 3.141754588 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  894 3.141917686 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  895 3.142120562 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  896 3.142307681 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  897 3.142493826 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  898 3.142493854 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  899 3.142992189 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  900 3.143181763 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  901 3.143380117 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  902 3.143380146 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  903 3.143571902 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  904 3.143967481 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  905 3.143967526 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  906 3.144237631 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  907 3.144515755 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  908 3.144515852 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  909 3.144921200 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  910 3.144921237 216.239.38.120 → 10.0.3.15    UDP 934 443 → 47874 Len=892
+  911 3.144921264 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+  912 3.145162295 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  913 3.145375876 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  914 3.145375912 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  915 3.145569180 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  916 3.145763034 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  917 3.145956959 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  918 3.146676300 142.251.32.99 → 10.0.3.15    UDP 657 443 → 51949 Len=615
+  919 3.146676374 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  920 3.146676398 142.251.32.99 → 10.0.3.15    UDP 139 443 → 51949 Len=97
+  921 3.146676418 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  922 3.146822349 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  923 3.147065477 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  924 3.147198850 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  925 3.147383397 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  926 3.147790598 216.239.38.120 → 10.0.3.15    UDP 134 443 → 47874 Len=92
+  927 3.148595047    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  928 3.154562474    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+  929 3.172862528 142.251.32.99 → 10.0.3.15    UDP 69 443 → 51949 Len=27
+  930 3.188250802 142.251.33.3 → 10.0.3.15    UDP 1399 443 → 59055 Len=1357
+  931 3.188250930 142.251.33.3 → 10.0.3.15    UDP 565 443 → 59055 Len=523
+  932 3.190754145    10.0.3.15 → 142.251.33.3 UDP 85 59055 → 443 Len=43
+  933 3.194533306    10.0.3.15 → 142.251.33.3 UDP 150 59055 → 443 Len=108
+  934 3.194795122    10.0.3.15 → 142.251.33.3 UDP 107 59055 → 443 Len=65
+  935 3.197165884    10.0.3.15 → 142.251.33.3 UDP 334 59055 → 443 Len=292
+  936 3.231126786    10.0.3.15 → 216.239.38.120 UDP 673 47874 → 443 Len=631
+  937 3.233414795    10.0.3.15 → 216.239.38.120 UDP 77 47874 → 443 Len=35
+  938 3.235321438    10.0.3.15 → 216.239.38.120 UDP 1399 47874 → 443 Len=1357
+  939 3.235405320    10.0.3.15 → 216.239.38.120 UDP 1096 47874 → 443 Len=1054
+  940 3.243974613    10.0.3.15 → 216.239.38.120 UDP 583 47874 → 443 Len=541
+  941 3.248894144 216.239.38.120 → 10.0.3.15    UDP 76 443 → 47874 Len=34
+  942 3.250896481 216.239.38.120 → 10.0.3.15    UDP 1395 443 → 47874 Len=1353
+  943 3.251152755 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  944 3.251152831 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  945 3.251367874 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  946 3.251433029    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+  947 3.252161536  10.6.15.200 → 10.0.3.15    DNS 462 Standard query response 0x5ebf AAAA blocking.securityconnection.org NS g.root-servers.net NS i.root-servers.net NS j.root-servers.net NS b.root-servers.net NS c.root-servers.net NS a.root-servers.net NS f.root-servers.net NS k.root-servers.net NS d.root-servers.net NS h.root-servers.net NS l.root-servers.net NS e.root-servers.net NS m.root-servers.net A 192.112.36.4 A 192.36.148.17 A 192.58.128.30 A 199.9.14.201 A 192.33.4.12 A 198.41.0.4 A 192.5.5.241 A 199.7.91.13 A 198.97.190.53 A 192.203.230.10
+  948 3.252658783    10.0.3.15 → 10.6.15.200  DNS 80 Standard query 0x955b AAAA adservice.google.com
+  949 3.253718579    10.0.3.15 → 10.6.15.200  DNS 87 Standard query 0xf9d1 A safebrowsing.googleapis.com
+  950 3.255332841 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  951 3.255705040 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  952 3.255861218 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  953 3.255861253 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  954 3.256078957 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  955 3.256243000 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  956 3.256527549 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  957 3.256828056  10.6.15.200 → 10.0.3.15    DNS 512 Standard query response 0x955b AAAA adservice.google.com NS d.gtld-servers.net NS j.gtld-servers.net NS m.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net NS f.gtld-servers.net NS k.gtld-servers.net NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net A 192.31.80.30 A 192.48.79.30 A 192.55.83.30 A 192.33.14.30 A 192.43.172.30 A 192.41.162.30 A 192.42.93.30 A 192.35.51.30 A 192.52.178.30 A 192.12.94.30 A 192.5.6.30 A 192.26.92.30 A 192.54.112.30
+  958 3.256828093 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  959 3.256828129 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  960 3.256828153 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  961 3.257023509 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  962 3.257023544 216.239.38.120 → 10.0.3.15    UDP 80 443 → 47874 Len=38
+  963 3.257211404 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+  964 3.257389968 216.239.38.120 → 10.0.3.15    UDP 67 443 → 47874 Len=25
+  965 3.259215539    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  966 3.259382369    10.0.3.15 → 240.0.0.1    TCP 74 34974 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=405734832 TSecr=0 WS=128
+  967 3.262264451 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46122 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  968 3.262329019    10.0.3.15 → 142.250.64.118 TCP 54 46122 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  969 3.262775310 216.239.38.120 → 10.0.3.15    UDP 76 443 → 47874 Len=34
+  970 3.262986803 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  971 3.262986867 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46112 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  972 3.262997290    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  973 3.263029254    10.0.3.15 → 142.250.64.118 TCP 54 46112 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  974 3.263835500    10.0.3.15 → 142.250.64.118 TLSv1 571 Client Hello
+  975 3.264128079 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46122 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+  976 3.265555267    10.0.3.15 → 142.250.64.118 TLSv1 571 Client Hello
+  977 3.265877674 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+  978 3.268159225    10.0.3.15 → 142.250.64.118 TLSv1 571 Client Hello
+  979 3.268737195 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46112 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+  980 3.272585207 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+  981 3.272615901    10.0.3.15 → 216.239.38.120 UDP 592 47874 → 443 Len=550
+  982 3.278883318 142.250.176.206 → 10.0.3.15    UDP 1399 443 → 54813 Len=1357
+  983 3.279089952 142.250.176.206 → 10.0.3.15    UDP 1399 443 → 54813 Len=1357
+  984 3.279089985 142.250.176.206 → 10.0.3.15    UDP 1399 443 → 54813 Len=1357
+  985 3.279133903    10.0.3.15 → 142.250.176.206 UDP 84 54813 → 443 Len=42
+  986 3.279354272 142.250.176.206 → 10.0.3.15    UDP 364 443 → 54813 Len=322
+  987 3.280382306    10.0.3.15 → 142.250.176.206 UDP 85 54813 → 443 Len=43
+  988 3.282407132    10.0.3.15 → 142.250.138.94 OCSP 481 Request
+  989 3.282716685 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37814 [ACK] Seq=1404 Ack=1281 Win=65535 Len=0
+  990 3.284691966    10.0.3.15 → 216.239.38.120 UDP 76 47874 → 443 Len=34
+  991 3.289633684 216.239.38.120 → 10.0.3.15    UDP 76 443 → 47874 Len=34
+  992 3.294716168 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+  993 3.294922583 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  994 3.294922621 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  995 3.295084458    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+  996 3.295502622 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+  997 3.295502705 216.239.38.120 → 10.0.3.15    UDP 428 443 → 47874 Len=386
+  998 3.295619139    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+  999 3.295723938 216.239.38.120 → 10.0.3.15    UDP 175 443 → 47874 Len=133
+ 1000 3.304048144 216.239.38.120 → 10.0.3.15    UDP 246 443 → 47874 Len=204
+ 1001 3.304383162 216.239.38.120 → 10.0.3.15    UDP 67 443 → 47874 Len=25
+ 1002 3.306623056    10.0.3.15 → 216.239.38.120 UDP 88 47874 → 443 Len=46
+ 1003 3.307433804 142.251.33.3 → 10.0.3.15    TLSv1.3 1466 Server Hello, Change Cipher Spec
+ 1004 3.307485775    10.0.3.15 → 142.251.33.3 TCP 54 59538 → 443 [ACK] Seq=518 Ack=1413 Win=63540 Len=0
+ 1005 3.308255023 142.251.33.3 → 10.0.3.15    TCP 1466 443 → 59538 [PSH, ACK] Seq=1413 Ack=518 Win=65535 Len=1412 [TCP segment of a reassembled PDU]
+ 1006 3.308262692    10.0.3.15 → 142.251.33.3 TCP 54 59538 → 443 [ACK] Seq=518 Ack=2825 Win=63540 Len=0
+ 1007 3.308622192 142.251.33.3 → 10.0.3.15    TLSv1.3 1567 Application Data
+ 1008 3.308626495    10.0.3.15 → 142.251.33.3 TCP 54 59538 → 443 [ACK] Seq=518 Ack=4338 Win=63540 Len=0
+ 1009 3.312606913    10.0.3.15 → 142.251.33.3 TLSv1.3 118 Change Cipher Spec, Application Data
+ 1010 3.312900949 142.251.33.3 → 10.0.3.15    TCP 60 443 → 59538 [ACK] Seq=4338 Ack=582 Win=65535 Len=0
+ 1011 3.312989217    10.0.3.15 → 142.251.33.3 TLSv1.3 224 Application Data
+ 1012 3.313223994 142.251.33.3 → 10.0.3.15    TCP 60 443 → 59538 [ACK] Seq=4338 Ack=752 Win=65535 Len=0
+ 1013 3.315892407 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+ 1014 3.327750334 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+ 1015 3.336266578    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1016 3.339130423    10.0.3.15 → 216.239.38.120 UDP 646 47874 → 443 Len=604
+ 1017 3.340413211    10.0.3.15 → 10.6.15.200  DNS 75 Standard query 0x47c9 A play.google.com
+ 1018 3.348555190 216.239.38.120 → 10.0.3.15    UDP 67 443 → 47874 Len=25
+ 1019 3.348890746    10.0.3.15 → 216.239.38.120 UDP 77 47874 → 443 Len=35
+ 1020 3.357920038 216.239.38.120 → 10.0.3.15    UDP 76 443 → 47874 Len=34
+ 1021 3.364838752 216.239.38.120 → 10.0.3.15    UDP 1395 443 → 47874 Len=1353
+ 1022 3.365076049 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1023 3.365121790    10.0.3.15 → 216.239.38.120 UDP 79 47874 → 443 Len=37
+ 1024 3.365216945 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1025 3.365247404    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1026 3.365418231 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1027 3.365559023 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1028 3.365657679    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1029 3.366398887 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1030 3.366398954 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1031 3.366624825 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1032 3.366624879 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1033 3.366603198    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1034 3.366695921    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1035 3.366797677 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1036 3.367026631 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1037 3.367163726    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1038 3.367325000 216.239.38.120 → 10.0.3.15    UDP 391 443 → 47874 Len=349
+ 1039 3.367325048 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+ 1040 3.367433268    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1041 3.367550182 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1042 3.367550219 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1043 3.367669828    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1044 3.367959802 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1045 3.368464787 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1046 3.368464838 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1047 3.368464923 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1048 3.368737070    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1049 3.368896017 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1050 3.369230219 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1051 3.369230262 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1052 3.369352573    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1053 3.369461309 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1054 3.369461353 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1055 3.369577556    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1056 3.369688561 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1057 3.369927046 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1058 3.369927082 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1059 3.370035182    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1060 3.370279323 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1061 3.370528644 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1062 3.370615428    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1063 3.370773637 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1064 3.370773670 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1065 3.370886667    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1066 3.371109557 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1067 3.371346223 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1068 3.371346259 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1069 3.371363744    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1070 3.371542173 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1071 3.371769552 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1072 3.371769591 216.239.38.120 → 10.0.3.15    UDP 928 443 → 47874 Len=886
+ 1073 3.371892823    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1074 3.385092380 142.251.33.3 → 10.0.3.15    UDP 657 443 → 59055 Len=615
+ 1075 3.385092578 142.251.33.3 → 10.0.3.15    UDP 139 443 → 59055 Len=97
+ 1076 3.385516060    10.0.3.15 → 142.251.33.3 UDP 73 59055 → 443 Len=31
+ 1077 3.386151327 216.239.38.120 → 10.0.3.15    UDP 72 443 → 47874 Len=30
+ 1078 3.387402994 142.251.33.3 → 10.0.3.15    UDP 545 443 → 59055 Len=503
+ 1079 3.387686943    10.0.3.15 → 142.251.33.3 UDP 73 59055 → 443 Len=31
+ 1080 3.389994632 142.251.33.3 → 10.0.3.15    UDP 477 443 → 59055 Len=435
+ 1081 3.391153041    10.0.3.15 → 142.251.33.3 UDP 73 59055 → 443 Len=31
+ 1082 3.402896444 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+ 1083 3.403132389 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1084 3.403132567 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1085 3.403322859 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1086 3.403404348    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1087 3.404266906 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1088 3.404519510 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1089 3.404519555 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1090 3.404730786 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1091 3.404730816 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1092 3.404875079    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1093 3.404973370 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1094 3.405237051 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1095 3.405237075 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1096 3.405256661    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1097 3.405427616 216.239.38.120 → 10.0.3.15    UDP 491 443 → 47874 Len=449
+ 1098 3.405711858 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+ 1099 3.405711916 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1100 3.405825687    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1101 3.405936457 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1102 3.405936504 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1103 3.406187831 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1104 3.406187865 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1105 3.406165994    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1106 3.406248782    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1107 3.406539951 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1108 3.406539983 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1109 3.406650187    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1110 3.406764351 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1111 3.407048604 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1112 3.407048649 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1113 3.407164425    10.0.3.15 → 216.239.38.120 UDP 74 47874 → 443 Len=32
+ 1114 3.407279111 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1115 3.407627970 216.239.38.120 → 10.0.3.15    UDP 505 443 → 47874 Len=463
+ 1116 3.407799651    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1117 3.439257035 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+ 1118 3.439509399 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1119 3.439509423 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1120 3.439590419    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1121 3.439956530 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1122 3.439956561 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1123 3.440154422 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1124 3.440308794    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1125 3.440342599 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1126 3.440549341 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1127 3.440848074    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1128 3.440891407 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1129 3.440891432 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1130 3.440929496    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1131 3.441038153 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1132 3.441340449 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1133 3.441747893 216.239.38.120 → 10.0.3.15    UDP 505 443 → 47874 Len=463
+ 1134 3.441747932 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+ 1135 3.441956300 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1136 3.442188183 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1137 3.442188209 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1138 3.442251454    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1139 3.442403063 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1140 3.442632501 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1141 3.442832817 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1142 3.442823546    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1143 3.442961514 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1144 3.443108819    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1145 3.443206911 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1146 3.444267735 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1147 3.444267786 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1148 3.444267808 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1149 3.444267833 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1150 3.444534182    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1151 3.444823718 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1152 3.444823753 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1153 3.444937534    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1154 3.445065406 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1155 3.445065436 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1156 3.445158410    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1157 3.445337673 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1158 3.445573816 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1159 3.445737048    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1160 3.445802850 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1161 3.445992672 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1162 3.446079159    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1163 3.446216299 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1164 3.446216331 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1165 3.446310417    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1166 3.446505591 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1167 3.446726557 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1168 3.446812497    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1169 3.446912777 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1170 3.447132854 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1171 3.447217060    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1172 3.447353654 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1173 3.447353680 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1174 3.447436505    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1175 3.447604382 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1176 3.447824695 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1177 3.448053048 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1178 3.448242927 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1179 3.448379670    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1180 3.448537155 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1181 3.448537191 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1182 3.448890013 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1183 3.448890048 216.239.38.120 → 10.0.3.15    UDP 1363 443 → 47874 Len=1321
+ 1184 3.449053755    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1185 3.449539594 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+ 1186 3.449885112 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1187 3.449885142 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1188 3.449997189    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1189 3.450112923 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1190 3.450332356 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1191 3.450472170    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1192 3.450573192 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1193 3.450573225 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1194 3.450663276    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1195 3.450796195 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1196 3.451090906 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1197 3.451192707    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1198 3.451300005 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1199 3.451520392 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1200 3.451609988    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1201 3.451742242 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1202 3.451742274 216.239.38.120 → 10.0.3.15    UDP 505 443 → 47874 Len=463
+ 1203 3.451822594    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1204 3.451973466 216.239.38.120 → 10.0.3.15    UDP 1392 443 → 47874 Len=1350
+ 1205 3.452194508 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1206 3.452286684    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1207 3.456428198 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1208 3.456428378 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1209 3.456637175    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1210 3.457119093 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1211 3.457336692 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1212 3.457336750 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1213 3.457561179 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1214 3.457584804    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1215 3.458000939 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1216 3.458001003 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1217 3.458226037 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1218 3.458506919 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1219 3.458486344    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1220 3.459106212 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1221 3.459106247 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1222 3.459333286 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1223 3.459323607    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1224 3.459520991 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1225 3.459521031 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1226 3.459645269    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1227 3.460008850 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1228 3.460485502 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1229 3.460485547 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1230 3.460606812    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1231 3.463519870 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1232 3.463891447 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1233 3.463891514 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1234 3.464096507 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1235 3.464340549 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1236 3.464430991    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1237 3.464626362    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1238 3.464789455 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1239 3.464789536 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1240 3.464952108    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1241 3.465021006 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1242 3.465021036 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1243 3.465055831    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1244 3.465243087 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1245 3.465468835 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1246 3.465468872 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1247 3.465663353 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1248 3.465714299    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1249 3.465815980 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1250 3.465976155    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1251 3.466009371 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1252 3.466191786 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1253 3.466307549    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1254 3.466351536 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1255 3.466538825 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1256 3.466538860 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1257 3.466762568 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1258 3.466837297    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1259 3.466948075 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1260 3.466948106 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1261 3.467205008 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1262 3.467242432    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1263 3.467393334 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1264 3.467393363 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1265 3.467499482    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1266 3.467943834 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1267 3.467943899 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1268 3.467943918 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1269 3.467943938 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1270 3.468275709 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1271 3.468295206    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1272 3.468472505 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1273 3.468472545 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1274 3.468585766    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1275 3.468755790 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1276 3.468755818 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1277 3.469014182 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1278 3.469032398    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1279 3.469202512 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1280 3.469202542 216.239.38.120 → 10.0.3.15    UDP 879 443 → 47874 Len=837
+ 1281 3.470442598    10.0.3.15 → 216.239.38.120 UDP 76 47874 → 443 Len=34
+ 1282 3.476830571 142.250.64.118 → 10.0.3.15    TLSv1.3 1466 Server Hello, Change Cipher Spec
+ 1283 3.476847483    10.0.3.15 → 142.250.64.118 TCP 54 46122 → 443 [ACK] Seq=518 Ack=1413 Win=63540 Len=0
+ 1284 3.477571650 142.250.64.118 → 10.0.3.15    TCP 1466 443 → 46122 [PSH, ACK] Seq=1413 Ack=518 Win=65535 Len=1412 [TCP segment of a reassembled PDU]
+ 1285 3.477586946    10.0.3.15 → 142.250.64.118 TCP 54 46122 → 443 [ACK] Seq=518 Ack=2825 Win=62128 Len=0
+ 1286 3.477974877 142.250.64.118 → 10.0.3.15    TLSv1.3 1977 Application Data
+ 1287 3.477974946 142.250.64.118 → 10.0.3.15    TLSv1.3 1466 Server Hello, Change Cipher Spec
+ 1288 3.477982606    10.0.3.15 → 142.250.64.118 TCP 54 46122 → 443 [ACK] Seq=518 Ack=4748 Win=61320 Len=0
+ 1289 3.478014278    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=518 Ack=1413 Win=63540 Len=0
+ 1290 3.479016951 142.250.64.118 → 10.0.3.15    TCP 2878 443 → 46126 [PSH, ACK] Seq=1413 Ack=518 Win=65535 Len=2824 [TCP segment of a reassembled PDU]
+ 1291 3.479016996 142.250.64.118 → 10.0.3.15    TLSv1.3 565 Application Data
+ 1292 3.479025322    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=518 Ack=4237 Win=61320 Len=0
+ 1293 3.479047753    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=518 Ack=4748 Win=61320 Len=0
+ 1294 3.481213947 142.250.64.118 → 10.0.3.15    TLSv1.3 2878 Server Hello, Change Cipher Spec
+ 1295 3.481222663    10.0.3.15 → 142.250.64.118 TCP 54 46112 → 443 [ACK] Seq=518 Ack=2825 Win=62780 Len=0
+ 1296 3.481789011 142.250.64.118 → 10.0.3.15    TLSv1.3 1977 Application Data
+ 1297 3.481796929    10.0.3.15 → 142.250.64.118 TCP 54 46112 → 443 [ACK] Seq=518 Ack=4748 Win=61320 Len=0
+ 1298 3.489063044 142.250.138.94 → 10.0.3.15    OCSP 756 Response
+ 1299 3.489077022    10.0.3.15 → 142.250.138.94 TCP 54 37814 → 80 [ACK] Seq=1281 Ack=2106 Win=63882 Len=0
+ 1300 3.492021246    10.0.3.15 → 142.250.176.206 UDP 152 54813 → 443 Len=110
+ 1301 3.492089489    10.0.3.15 → 142.250.176.206 UDP 108 54813 → 443 Len=66
+ 1302 3.496636891    10.0.3.15 → 142.250.138.94 OCSP 480 Request
+ 1303 3.496974691 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37814 [ACK] Seq=2106 Ack=1707 Win=65535 Len=0
+ 1304 3.497315053 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+ 1305 3.497315669 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1306 3.497593673 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1307 3.497593707 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1308 3.497856641 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1309 3.497856664 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1310 3.498038922 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1311 3.498235921 216.239.38.120 → 10.0.3.15    UDP 1356 443 → 47874 Len=1314
+ 1312 3.498414619 216.239.38.120 → 10.0.3.15    UDP 1393 443 → 47874 Len=1351
+ 1313 3.498600021 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1314 3.498600063 216.239.38.120 → 10.0.3.15    UDP 745 443 → 47874 Len=703
+ 1315 3.498793706 216.239.38.120 → 10.0.3.15    UDP 1393 443 → 47874 Len=1351
+ 1316 3.498962052 216.239.38.120 → 10.0.3.15    UDP 517 443 → 47874 Len=475
+ 1317 3.500983558 216.239.38.120 → 10.0.3.15    UDP 1393 443 → 47874 Len=1351
+ 1318 3.500983628 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1319 3.501182694 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1320 3.501182733 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1321 3.502257931 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1322 3.502257994 142.251.33.3 → 10.0.3.15    TLSv1.3 699 Application Data, Application Data, Application Data
+ 1323 3.502258014 216.239.38.120 → 10.0.3.15    UDP 1221 443 → 47874 Len=1179
+ 1324 3.502271011    10.0.3.15 → 142.251.33.3 TCP 54 59538 → 443 [ACK] Seq=752 Ack=4983 Win=63540 Len=0
+ 1325 3.502291205    10.0.3.15 → 142.250.138.94 OCSP 480 Request
+ 1326 3.502500616 216.239.38.120 → 10.0.3.15    UDP 1391 443 → 47874 Len=1349
+ 1327 3.502500642 216.239.38.120 → 10.0.3.15    UDP 1076 443 → 47874 Len=1034
+ 1328 3.502700009 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37796 [ACK] Seq=2104 Ack=1705 Win=65535 Len=0
+ 1329 3.502700067 216.239.38.120 → 10.0.3.15    UDP 194 443 → 47874 Len=152
+ 1330 3.502702454    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+ 1331 3.503149970    10.0.3.15 → 142.251.33.3 TLSv1.3 85 Application Data
+ 1332 3.503348345 142.251.33.3 → 10.0.3.15    TCP 60 443 → 59538 [ACK] Seq=4983 Ack=783 Win=65535 Len=0
+ 1333 3.509078260  10.6.15.200 → 10.0.3.15    DNS 535 Standard query response 0xf9d1 A safebrowsing.googleapis.com A 142.250.113.95 NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net NS f.gtld-servers.net NS k.gtld-servers.net NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS d.gtld-servers.net NS j.gtld-servers.net NS m.gtld-servers.net A 192.33.14.30 A 192.43.172.30 A 192.41.162.30 A 192.42.93.30 A 192.35.51.30 A 192.52.178.30 A 192.12.94.30 A 192.5.6.30 A 192.26.92.30 A 192.54.112.30 A 192.31.80.30 A 192.48.79.30 A 192.55.83.30
+ 1334 3.513378035    10.0.3.15 → 142.250.138.94 OCSP 480 Request
+ 1335 3.513647845    10.0.3.15 → 142.250.113.95 TCP 74 45184 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2656853770 TSecr=0 WS=128
+ 1336 3.513757559 142.250.138.94 → 10.0.3.15    TCP 60 80 → 37818 [ACK] Seq=1 Ack=427 Win=65535 Len=0
+ 1337 3.513771925    10.0.3.15 → 240.0.0.1    TCP 74 57962 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=405735087 TSecr=0 WS=128
+ 1338 3.523702280 216.239.38.120 → 10.0.3.15    UDP 74 443 → 47874 Len=32
+ 1339 3.524090206    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1340 3.537263262    10.0.3.15 → 142.251.32.99 UDP 535 51949 → 443 Len=493
+ 1341 3.539566337    10.0.3.15 → 142.251.32.99 UDP 72 51949 → 443 Len=30
+ 1342 3.564937278    10.0.3.15 → 216.239.38.120 UDP 803 47874 → 443 Len=761
+ 1343 3.582250088 216.239.38.120 → 10.0.3.15    UDP 77 443 → 47874 Len=35
+ 1344 3.604356309    10.0.3.15 → 216.239.38.120 UDP 76 47874 → 443 Len=34
+ 1345 3.605451765 142.251.33.3 → 10.0.3.15    UDP 69 443 → 59055 Len=27
+ 1346 3.626249047    10.0.3.15 → 142.251.32.99 UDP 1399 51949 → 443 Len=1357
+ 1347 3.626352558    10.0.3.15 → 142.251.32.99 UDP 630 51949 → 443 Len=588
+ 1348 3.626728872    10.0.3.15 → 142.251.32.99 UDP 72 51949 → 443 Len=30
+ 1349 3.648758357 216.239.38.120 → 10.0.3.15    UDP 1294 443 → 47874 Len=1252
+ 1350 3.648935329 216.239.38.120 → 10.0.3.15    UDP 76 443 → 47874 Len=34
+ 1351 3.649073454    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+ 1352 3.649312628    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1353 3.670142976 216.239.38.120 → 10.0.3.15    UDP 74 443 → 47874 Len=32
+ 1354 3.681327846  10.6.15.200 → 10.0.3.15    DNS 603 Standard query response 0x47c9 A play.google.com A 142.250.138.101 A 142.250.138.139 A 142.250.138.100 A 142.250.138.102 A 142.250.138.138 A 142.250.138.113 NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS d.gtld-servers.net NS j.gtld-servers.net NS m.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net NS f.gtld-servers.net NS k.gtld-servers.net A 192.12.94.30 A 192.5.6.30 A 192.26.92.30 A 192.54.112.30 A 192.31.80.30 A 192.48.79.30 A 192.55.83.30 A 192.33.14.30 A 192.43.172.30 A 192.41.162.30 A 192.42.93.30 A 192.35.51.30 A 192.52.178.30
+ 1355 3.686742001    10.0.3.15 → 142.250.138.101 UDP 1399 48100 → 443 Len=1357
+ 1356 3.687050399    10.0.3.15 → 142.250.138.101 UDP 1399 38014 → 443 Len=1357
+ 1357 3.687327289    10.0.3.15 → 142.250.138.101 TCP 74 51134 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=3601715638 TSecr=0 WS=128
+ 1358 3.695787781 142.250.176.206 → 10.0.3.15    UDP 657 443 → 54813 Len=615
+ 1359 3.695787896 142.250.176.206 → 10.0.3.15    UDP 139 443 → 54813 Len=97
+ 1360 3.698554446    10.0.3.15 → 142.250.176.206 UDP 73 54813 → 443 Len=31
+ 1361 3.703299145 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+ 1362 3.703299268 142.250.138.94 → 10.0.3.15    OCSP 755 Response
+ 1363 3.703354246    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+ 1364 3.703389352    10.0.3.15 → 142.250.138.94 TCP 54 37814 → 80 [ACK] Seq=1707 Ack=2807 Win=63882 Len=0
+ 1365 3.705458824    10.0.3.15 → 142.250.113.95 TLSv1 571 Client Hello
+ 1366 3.705935314    10.0.3.15 → 142.250.64.118 TLSv1.3 118 Change Cipher Spec, Application Data
+ 1367 3.706017505 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+ 1368 3.706238628 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=4748 Ack=582 Win=65535 Len=0
+ 1369 3.706419356    10.0.3.15 → 142.250.64.118 TLSv1.3 224 Application Data
+ 1370 3.706485607    10.0.3.15 → 142.250.64.118 TLSv1.3 381 Application Data
+ 1371 3.708968168 142.250.138.94 → 10.0.3.15    OCSP 755 Response
+ 1372 3.708968240 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=4748 Ack=752 Win=65535 Len=0
+ 1373 3.708968264 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=4748 Ack=1079 Win=65535 Len=0
+ 1374 3.708977686    10.0.3.15 → 142.250.138.94 TCP 54 37796 → 80 [ACK] Seq=1705 Ack=2805 Win=63791 Len=0
+ 1375 3.709854879    10.0.3.15 → 142.250.64.118 TLSv1.3 118 Change Cipher Spec, Application Data
+ 1376 3.710147404 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46122 [ACK] Seq=4748 Ack=582 Win=65535 Len=0
+ 1377 3.710496222    10.0.3.15 → 142.250.64.118 TLSv1.3 241 Application Data
+ 1378 3.710802767 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46122 [ACK] Seq=4748 Ack=769 Win=65535 Len=0
+ 1379 3.711019076    10.0.3.15 → 142.250.64.118 TLSv1.3 187 Application Data
+ 1380 3.711298360 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=4748 Ack=1212 Win=65535 Len=0
+ 1381 3.720640940 142.250.176.206 → 10.0.3.15    UDP 69 443 → 54813 Len=27
+ 1382 3.723102044 142.250.138.94 → 10.0.3.15    OCSP 755 Response
+ 1383 3.723116955    10.0.3.15 → 142.250.138.94 TCP 54 37818 → 80 [ACK] Seq=427 Ack=702 Win=63791 Len=0
+ 1384 3.725171647    10.0.3.15 → 142.250.64.118 TLSv1.3 118 Change Cipher Spec, Application Data
+ 1385 3.725546303 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46112 [ACK] Seq=4748 Ack=582 Win=65535 Len=0
+ 1386 3.726013447    10.0.3.15 → 142.250.64.118 TLSv1.3 241 Application Data
+ 1387 3.726217902 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46112 [ACK] Seq=4748 Ack=769 Win=65535 Len=0
+ 1388 3.726670101    10.0.3.15 → 142.250.64.118 TLSv1.3 187 Application Data
+ 1389 3.727154153 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=4748 Ack=1345 Win=65535 Len=0
+ 1390 3.742898210 142.251.32.99 → 10.0.3.15    UDP 72 443 → 51949 Len=30
+ 1391 3.742898301 142.251.32.99 → 10.0.3.15    UDP 73 443 → 51949 Len=31
+ 1392 3.744098098    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1393 3.785878219    10.0.3.15 → 216.239.38.120 UDP 935 47874 → 443 Len=893
+ 1394 3.803252131 216.239.38.120 → 10.0.3.15    UDP 77 443 → 47874 Len=35
+ 1395 3.816468490    10.0.3.15 → 142.251.32.99 UDP 1399 51949 → 443 Len=1357
+ 1396 3.816629553    10.0.3.15 → 142.251.32.99 UDP 1093 51949 → 443 Len=1051
+ 1397 3.817505212    10.0.3.15 → 142.251.32.99 UDP 72 51949 → 443 Len=30
+ 1398 3.819055407    10.0.3.15 → 142.251.32.99 UDP 1399 51949 → 443 Len=1357
+ 1399 3.824456421    10.0.3.15 → 216.239.38.120 UDP 76 47874 → 443 Len=34
+ 1400 3.824872467    10.0.3.15 → 216.239.38.120 UDP 641 47874 → 443 Len=599
+ 1401 3.825020936    10.0.3.15 → 142.251.32.99 UDP 1103 51949 → 443 Len=1061
+ 1402 3.830036624 142.251.32.99 → 10.0.3.15    UDP 68 443 → 51949 Len=26
+ 1403 3.830261546 142.251.32.99 → 10.0.3.15    UDP 73 443 → 51949 Len=31
+ 1404 3.830261574 142.251.32.99 → 10.0.3.15    UDP 67 443 → 51949 Len=25
+ 1405 3.830384325    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1406 3.832664544    10.0.3.15 → 142.251.32.99 UDP 1399 51949 → 443 Len=1357
+ 1407 3.842156401 216.239.38.120 → 10.0.3.15    UDP 77 443 → 47874 Len=35
+ 1408 3.842401956    10.0.3.15 → 142.251.32.99 UDP 1399 51949 → 443 Len=1357
+ 1409 3.856982136 216.239.38.120 → 10.0.3.15    UDP 250 443 → 47874 Len=208
+ 1410 3.857302001 216.239.38.120 → 10.0.3.15    UDP 68 443 → 47874 Len=26
+ 1411 3.857475771    10.0.3.15 → 216.239.38.120 UDP 87 47874 → 443 Len=45
+ 1412 3.857828525    10.0.3.15 → 142.251.32.99 UDP 1399 51949 → 443 Len=1357
+ 1413 3.858098279 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+ 1414 3.858348527 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1415 3.858494040    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+ 1416 3.858857890 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1417 3.858857970 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1418 3.858857992 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1419 3.859292394 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1420 3.859292423 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1421 3.859292448 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1422 3.859344489    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1423 3.859480602 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1424 3.859855028 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1425 3.859855297 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1426 3.859855331 216.239.38.120 → 10.0.3.15    UDP 392 443 → 47874 Len=350
+ 1427 3.859949121    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1428 3.860093599    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1429 3.860287469 216.239.38.120 → 10.0.3.15    UDP 1393 443 → 47874 Len=1351
+ 1430 3.860287501 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1431 3.860287525 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1432 3.860759606 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1433 3.860759639 216.239.38.120 → 10.0.3.15    UDP 842 443 → 47874 Len=800
+ 1434 3.860923801    10.0.3.15 → 216.239.38.120 UDP 85 47874 → 443 Len=43
+ 1435 3.860975055    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+ 1436 3.861024268 216.239.38.120 → 10.0.3.15    UDP 154 443 → 47874 Len=112
+ 1437 3.861031912    10.0.3.15 → 142.251.32.99 UDP 831 51949 → 443 Len=789
+ 1438 3.876199896    10.0.3.15 → 216.239.38.120 UDP 810 47874 → 443 Len=768
+ 1439 3.876959125    10.0.3.15 → 216.239.38.120 UDP 79 47874 → 443 Len=37
+ 1440 3.877224865 142.250.138.101 → 10.0.3.15    TCP 60 443 → 51134 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+ 1441 3.877244383    10.0.3.15 → 142.250.138.101 TCP 54 51134 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+ 1442 3.877702786 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 38014 Len=1357
+ 1443 3.877910322 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 38014 Len=1357
+ 1444 3.877910358 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 48100 Len=1357
+ 1445 3.878113077 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 38014 Len=1357
+ 1446 3.878303579 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 48100 Len=1357
+ 1447 3.878303614 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 48100 Len=1357
+ 1448 3.878728871    10.0.3.15 → 142.250.138.101 TLSv1 571 Client Hello
+ 1449 3.879194663 142.250.138.101 → 10.0.3.15    TCP 60 443 → 51134 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+ 1450 3.879168190    10.0.3.15 → 142.250.138.101 UDP 84 38014 → 443 Len=42
+ 1451 3.879456299    10.0.3.15 → 142.250.138.101 UDP 84 48100 → 443 Len=42
+ 1452 3.879935006 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+ 1453 3.883867930    10.0.3.15 → 216.239.38.120 UDP 76 47874 → 443 Len=34
+ 1454 3.885933943    10.0.3.15 → 10.6.15.200  DNS 91 Standard query 0x5fa9 AAAA blocking.securityconnection.org
+ 1455 3.894455457 216.239.38.120 → 10.0.3.15    UDP 77 443 → 47874 Len=35
+ 1456 3.894758225 216.239.38.120 → 10.0.3.15    UDP 79 443 → 47874 Len=37
+ 1457 3.894865498    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1458 3.897174966 142.250.113.95 → 10.0.3.15    TLSv1.3 1466 Server Hello, Change Cipher Spec
+ 1459 3.897184384    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=518 Ack=1413 Win=63540 Len=0
+ 1460 3.897400410 142.250.113.95 → 10.0.3.15    TCP 2878 443 → 45184 [PSH, ACK] Seq=1413 Ack=518 Win=65535 Len=2824 [TCP segment of a reassembled PDU]
+ 1461 3.897406688    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=518 Ack=4237 Win=61320 Len=0
+ 1462 3.897620334 142.250.113.95 → 10.0.3.15    TLSv1.3 499 Application Data
+ 1463 3.897624560    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=518 Ack=4682 Win=62780 Len=0
+ 1464 3.900120255    10.0.3.15 → 142.250.138.94 TCP 74 56610 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1529952432 TSecr=0 WS=128
+ 1465 3.910164992 142.250.64.118 → 10.0.3.15    TLSv1.3 668 Application Data, Application Data
+ 1466 3.910171623    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1345 Ack=5362 Win=62780 Len=0
+ 1467 3.910516876    10.0.3.15 → 142.250.64.118 TLSv1.3 85 Application Data
+ 1468 3.910738162 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=5362 Ack=1376 Win=65535 Len=0
+ 1469 3.912579167 142.250.64.118 → 10.0.3.15    TLSv1.3 85 Application Data
+ 1470 3.912585640    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1376 Ack=5393 Win=62780 Len=0
+ 1471 3.913473484 142.250.64.118 → 10.0.3.15    TLSv1.3 495 Application Data
+ 1472 3.913480320    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1376 Ack=5834 Win=62780 Len=0
+ 1473 3.913704622 142.250.64.118 → 10.0.3.15    TLSv1.3 1466 Application Data
+ 1474 3.913708485    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1376 Ack=7246 Win=62780 Len=0
+ 1475 3.914121674 142.250.64.118 → 10.0.3.15    TLSv1.3 668 Application Data, Application Data
+ 1476 3.914126442    10.0.3.15 → 142.250.64.118 TCP 54 46122 → 443 [ACK] Seq=769 Ack=5362 Win=62780 Len=0
+ 1477 3.914349089    10.0.3.15 → 142.250.64.118 TLSv1.3 78 Application Data
+ 1478 3.914404847    10.0.3.15 → 142.250.64.118 TCP 54 46122 → 443 [FIN, ACK] Seq=793 Ack=5362 Win=62780 Len=0
+ 1479 3.914501295 142.250.64.118 → 10.0.3.15    TLSv1.3 85 Application Data
+ 1480 3.914501355 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46122 [ACK] Seq=5393 Ack=793 Win=65535 Len=0
+ 1481 3.914514863    10.0.3.15 → 142.250.64.118 TCP 54 46122 → 443 [RST] Seq=769 Win=0 Len=0
+ 1482 3.914687786 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46122 [ACK] Seq=5393 Ack=794 Win=65535 Len=0
+ 1483 3.914692088    10.0.3.15 → 142.250.64.118 TCP 54 46122 → 443 [RST] Seq=794 Win=0 Len=0
+ 1484 3.914998282    10.0.3.15 → 142.250.64.118 UDP 1399 38180 → 443 Len=1357
+ 1485 3.915084609 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46122 [RST, ACK] Seq=4147191295 Ack=794 Win=0 Len=0
+ 1486 3.915790087 142.250.64.118 → 10.0.3.15    TLSv1.3 2927 Application Data, Application Data, Application Data
+ 1487 3.915795705    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1376 Ack=10119 Win=62780 Len=0
+ 1488 3.918919662 142.250.64.118 → 10.0.3.15    TLSv1.3 93 Application Data
+ 1489 3.918927326    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1376 Ack=10158 Win=62780 Len=0
+ 1490 3.919028902    10.0.3.15 → 142.250.64.118 TLSv1.3 93 Application Data
+ 1491 3.919187596 142.250.64.118 → 10.0.3.15    TLSv1.3 169 Application Data
+ 1492 3.919255278    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1415 Ack=10273 Win=62780 Len=0
+ 1493 3.919390681 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=10273 Ack=1415 Win=65535 Len=0
+ 1494 3.919649654 142.250.64.118 → 10.0.3.15    TLSv1.3 1466 Application Data
+ 1495 3.919725544    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1415 Ack=11685 Win=62780 Len=0
+ 1496 3.924702141 142.250.64.118 → 10.0.3.15    TLSv1.3 2041 Application Data, Application Data
+ 1497 3.924718715    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1415 Ack=13672 Win=62780 Len=0
+ 1498 3.929500432 142.250.64.118 → 10.0.3.15    TLSv1.3 668 Application Data, Application Data
+ 1499 3.929507259    10.0.3.15 → 142.250.64.118 TCP 54 46112 → 443 [ACK] Seq=769 Ack=5362 Win=62780 Len=0
+ 1500 3.929973848    10.0.3.15 → 142.250.64.118 TLSv1.3 78 Application Data
+ 1501 3.930251463 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46112 [ACK] Seq=5362 Ack=793 Win=65535 Len=0
+ 1502 3.930309477    10.0.3.15 → 142.250.64.118 TCP 54 46112 → 443 [FIN, ACK] Seq=793 Ack=5362 Win=62780 Len=0
+ 1503 3.930416360 142.250.64.118 → 10.0.3.15    TLSv1.3 85 Application Data
+ 1504 3.930565146 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46112 [ACK] Seq=5393 Ack=794 Win=65535 Len=0
+ 1505 3.930604843    10.0.3.15 → 142.250.64.118 TCP 54 46112 → 443 [RST] Seq=793 Win=0 Len=0
+ 1506 3.931537465 142.250.64.118 → 10.0.3.15    TLSv1.3 169 Application Data
+ 1507 3.931589459    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1415 Ack=13787 Win=62780 Len=0
+ 1508 3.932252530 142.250.64.118 → 10.0.3.15    TLSv1.3 1466 Application Data
+ 1509 3.932325440    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1415 Ack=15199 Win=62780 Len=0
+ 1510 3.937279864 142.250.64.118 → 10.0.3.15    TLSv1.3 1466 Application Data
+ 1511 3.942707072 142.250.64.118 → 10.0.3.15    TLSv1.3 1052 Application Data
+ 1512 3.942713187    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1415 Ack=17609 Win=62780 Len=0
+ 1513 4.020343535 142.251.32.99 → 10.0.3.15    UDP 72 443 → 51949 Len=30
+ 1514 4.020919485 142.251.32.99 → 10.0.3.15    UDP 73 443 → 51949 Len=31
+ 1515 4.021171577    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1516 4.028142078 142.251.32.99 → 10.0.3.15    UDP 73 443 → 51949 Len=31
+ 1517 4.046505452 142.251.32.99 → 10.0.3.15    UDP 72 443 → 51949 Len=30
+ 1518 4.046962724    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1519 4.064590408 142.251.32.99 → 10.0.3.15    UDP 72 443 → 51949 Len=30
+ 1520 4.067956445 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 38014 Len=1357
+ 1521 4.068185626 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 38014 Len=1357
+ 1522 4.068309638    10.0.3.15 → 142.250.138.101 UDP 84 38014 → 443 Len=42
+ 1523 4.068712381 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 38014 Len=1357
+ 1524 4.068940342 142.250.138.101 → 10.0.3.15    UDP 377 443 → 38014 Len=335
+ 1525 4.069948068    10.0.3.15 → 142.250.138.101 UDP 85 38014 → 443 Len=43
+ 1526 4.070751933 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 48100 Len=1357
+ 1527 4.070751986 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 48100 Len=1357
+ 1528 4.071019821 142.250.138.101 → 10.0.3.15    UDP 1399 443 → 48100 Len=1357
+ 1529 4.071019893 142.250.138.101 → 10.0.3.15    TLSv1.3 1466 Server Hello, Change Cipher Spec
+ 1530 4.071019928 142.250.138.101 → 10.0.3.15    UDP 360 443 → 48100 Len=318
+ 1531 4.071075073    10.0.3.15 → 142.250.138.101 TCP 54 51134 → 443 [ACK] Seq=518 Ack=1413 Win=63540 Len=0
+ 1532 4.071251268 142.250.138.101 → 10.0.3.15    TCP 2878 443 → 51134 [PSH, ACK] Seq=1413 Ack=518 Win=65535 Len=2824 [TCP segment of a reassembled PDU]
+ 1533 4.071255478    10.0.3.15 → 142.250.138.101 TCP 54 51134 → 443 [ACK] Seq=518 Ack=4237 Win=61320 Len=0
+ 1534 4.071456781 142.250.138.101 → 10.0.3.15    TLSv1.3 2591 Application Data
+ 1535 4.071459600    10.0.3.15 → 142.250.138.101 TCP 54 51134 → 443 [ACK] Seq=518 Ack=6774 Win=59860 Len=0
+ 1536 4.072432864    10.0.3.15 → 142.250.138.101 UDP 85 48100 → 443 Len=43
+ 1537 4.076479297    10.0.3.15 → 142.250.138.101 TLSv1.3 118 Change Cipher Spec, Application Data
+ 1538 4.076829866 142.250.138.101 → 10.0.3.15    TCP 60 443 → 51134 [ACK] Seq=6774 Ack=582 Win=65535 Len=0
+ 1539 4.077143361    10.0.3.15 → 142.250.138.101 UDP 150 38014 → 443 Len=108
+ 1540 4.077341498    10.0.3.15 → 142.250.138.101 UDP 113 38014 → 443 Len=71
+ 1541 4.077965206    10.0.3.15 → 142.250.138.101 TLSv1.3 224 Application Data
+ 1542 4.078132333 142.250.138.101 → 10.0.3.15    TCP 60 443 → 51134 [ACK] Seq=6774 Ack=752 Win=65535 Len=0
+ 1543 4.078442662    10.0.3.15 → 142.250.138.101 TLSv1.3 419 Application Data
+ 1544 4.078599085 142.250.138.101 → 10.0.3.15    TCP 60 443 → 51134 [ACK] Seq=6774 Ack=1117 Win=65535 Len=0
+ 1545 4.079270229    10.0.3.15 → 142.250.138.101 UDP 150 48100 → 443 Len=108
+ 1546 4.079491772    10.0.3.15 → 142.250.138.101 UDP 110 48100 → 443 Len=68
+ 1547 4.085652630    10.0.3.15 → 142.251.32.99 UDP 74 51949 → 443 Len=32
+ 1548 4.089013828 142.251.32.99 → 10.0.3.15    UDP 1395 443 → 51949 Len=1353
+ 1549 4.089013865 142.251.32.99 → 10.0.3.15    UDP 89 443 → 51949 Len=47
+ 1550 4.089013885 142.251.32.99 → 10.0.3.15    UDP 311 443 → 51949 Len=269
+ 1551 4.089416412    10.0.3.15 → 142.251.32.99 UDP 78 51949 → 443 Len=36
+ 1552 4.089992267 142.250.138.94 → 10.0.3.15    TCP 60 80 → 56610 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+ 1553 4.090007178    10.0.3.15 → 142.250.138.94 TCP 54 56610 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+ 1554 4.090498598    10.0.3.15 → 142.250.138.94 OCSP 480 Request
+ 1555 4.090900798 142.250.138.94 → 10.0.3.15    TCP 60 80 → 56610 [ACK] Seq=1 Ack=427 Win=65535 Len=0
+ 1556 4.116883981 142.251.32.99 → 10.0.3.15    UDP 1395 443 → 51949 Len=1353
+ 1557 4.117086033    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1558 4.120301702 142.250.64.118 → 10.0.3.15    UDP 1399 443 → 38180 Len=1357
+ 1559 4.120637113    10.0.3.15 → 142.250.64.118 UDP 82 38180 → 443 Len=40
+ 1560 4.123370596 142.251.32.99 → 10.0.3.15    UDP 1399 443 → 51949 Len=1357
+ 1561 4.123532253    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1562 4.128226614 142.250.64.118 → 10.0.3.15    UDP 1399 443 → 38180 Len=1357
+ 1563 4.128558864 142.250.64.118 → 10.0.3.15    UDP 1399 443 → 38180 Len=1357
+ 1564 4.129840055    10.0.3.15 → 142.250.64.118 UDP 84 38180 → 443 Len=42
+ 1565 4.130244093 142.251.32.99 → 10.0.3.15    UDP 1399 443 → 51949 Len=1357
+ 1566 4.134328986 142.251.32.99 → 10.0.3.15    UDP 573 443 → 51949 Len=531
+ 1567 4.134524873    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1568 4.137879321  10.6.15.200 → 10.0.3.15    DNS 510 Standard query response 0x5fa9 AAAA blocking.securityconnection.org NS b.root-servers.net NS c.root-servers.net NS a.root-servers.net NS f.root-servers.net NS k.root-servers.net NS d.root-servers.net NS h.root-servers.net NS l.root-servers.net NS e.root-servers.net NS m.root-servers.net NS g.root-servers.net NS i.root-servers.net NS j.root-servers.net A 199.9.14.201 A 192.33.4.12 A 198.41.0.4 A 192.5.5.241 A 193.0.14.129 A 199.7.91.13 A 198.97.190.53 A 199.7.83.42 A 192.203.230.10 A 202.12.27.33 A 192.112.36.4 A 192.36.148.17 A 192.58.128.30
+ 1569 4.138406379    10.0.3.15 → 197.189.204.175 TCP 74 44834 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2666846068 TSecr=0 WS=128
+ 1570 4.148774757    10.0.3.15 → 142.251.32.99 UDP 1399 51949 → 443 Len=1357
+ 1571 4.148973715    10.0.3.15 → 142.251.32.99 UDP 1144 51949 → 443 Len=1102
+ 1572 4.266163459 142.250.138.101 → 10.0.3.15    UDP 657 443 → 38014 Len=615
+ 1573 4.266439889 142.250.138.101 → 10.0.3.15    TLSv1.3 668 Application Data, Application Data
+ 1574 4.266439940 142.250.138.101 → 10.0.3.15    UDP 139 443 → 38014 Len=97
+ 1575 4.266452048    10.0.3.15 → 142.250.138.101 TCP 54 51134 → 443 [ACK] Seq=1117 Ack=7388 Win=62780 Len=0
+ 1576 4.267227181 142.250.138.101 → 10.0.3.15    TLSv1.3 85 Application Data
+ 1577 4.267235471    10.0.3.15 → 142.250.138.101 TCP 54 51134 → 443 [ACK] Seq=1117 Ack=7419 Win=62780 Len=0
+ 1578 4.267941686    10.0.3.15 → 142.250.138.101 UDP 73 38014 → 443 Len=31
+ 1579 4.268747053    10.0.3.15 → 142.250.138.101 TLSv1.3 85 Application Data
+ 1580 4.269059267 142.250.138.101 → 10.0.3.15    UDP 657 443 → 48100 Len=615
+ 1581 4.269059336 142.250.138.101 → 10.0.3.15    UDP 139 443 → 48100 Len=97
+ 1582 4.269059370 142.250.138.101 → 10.0.3.15    TCP 60 443 → 51134 [ACK] Seq=7419 Ack=1148 Win=65535 Len=0
+ 1583 4.269464724    10.0.3.15 → 142.250.138.101 UDP 73 48100 → 443 Len=31
+ 1584 4.278115451    10.0.3.15 → 240.0.0.1    TCP 74 [TCP Retransmission] 34974 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=405735851 TSecr=0 WS=128
+ 1585 4.283958502 197.189.204.175 → 10.0.3.15    TCP 60 443 → 44834 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+ 1586 4.283979906    10.0.3.15 → 197.189.204.175 TCP 54 44834 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+ 1587 4.285262396    10.0.3.15 → 197.189.204.175 TLSv1 571 Client Hello
+ 1588 4.285595368 197.189.204.175 → 10.0.3.15    TCP 60 443 → 44834 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+ 1589 4.286698275 142.250.138.101 → 10.0.3.15    TLSv1.3 427 Application Data, Application Data
+ 1590 4.286705766    10.0.3.15 → 142.250.138.101 TCP 54 51134 → 443 [ACK] Seq=1148 Ack=7792 Win=62780 Len=0
+ 1591 4.286954817 142.250.138.101 → 10.0.3.15    TLSv1.3 93 Application Data
+ 1592 4.286959495    10.0.3.15 → 142.250.138.101 TCP 54 51134 → 443 [ACK] Seq=1148 Ack=7831 Win=62780 Len=0
+ 1593 4.287424739    10.0.3.15 → 142.250.138.101 TLSv1.3 93 Application Data
+ 1594 4.287910572 142.250.138.101 → 10.0.3.15    TCP 60 443 → 51134 [ACK] Seq=7831 Ack=1187 Win=65535 Len=0
+ 1595 4.288627299    10.0.3.15 → 142.250.138.101 UDP 1029 48100 → 443 Len=987
+ 1596 4.291397513 142.250.138.101 → 10.0.3.15    UDP 69 443 → 38014 Len=27
+ 1597 4.293949803 142.250.138.101 → 10.0.3.15    UDP 69 443 → 48100 Len=27
+ 1598 4.298255088 142.250.138.94 → 10.0.3.15    OCSP 755 Response
+ 1599 4.298267674    10.0.3.15 → 142.250.138.94 TCP 54 56610 → 80 [ACK] Seq=427 Ack=702 Win=63791 Len=0
+ 1600 4.305259707    10.0.3.15 → 142.250.113.95 TLSv1.3 118 Change Cipher Spec, Application Data
+ 1601 4.305461985 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [ACK] Seq=4682 Ack=582 Win=65535 Len=0
+ 1602 4.306214438    10.0.3.15 → 142.250.113.95 TLSv1.3 224 Application Data
+ 1603 4.306501628 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [ACK] Seq=4682 Ack=752 Win=65535 Len=0
+ 1604 4.306648450    10.0.3.15 → 142.250.113.95 TLSv1.3 530 Application Data
+ 1605 4.306925713 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [ACK] Seq=4682 Ack=1228 Win=65535 Len=0
+ 1606 4.318108831 142.251.32.99 → 10.0.3.15    UDP 69 443 → 51949 Len=27
+ 1607 4.324788801 142.250.64.118 → 10.0.3.15    UDP 1399 443 → 38180 Len=1357
+ 1608 4.324788879 142.250.64.118 → 10.0.3.15    UDP 976 443 → 38180 Len=934
+ 1609 4.325436206    10.0.3.15 → 142.250.64.118 UDP 84 38180 → 443 Len=42
+ 1610 4.333088293    10.0.3.15 → 142.250.64.118 UDP 150 38180 → 443 Len=108
+ 1611 4.333166267    10.0.3.15 → 142.250.64.118 UDP 112 38180 → 443 Len=70
+ 1612 4.333254948    10.0.3.15 → 142.250.64.118 TLSv1.3 93 Application Data
+ 1613 4.333579247    10.0.3.15 → 142.250.64.118 TLSv1.3 78 Application Data
+ 1614 4.333711042 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=17609 Ack=1454 Win=65535 Len=0
+ 1615 4.333689605    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [FIN, ACK] Seq=1478 Ack=17609 Win=62780 Len=0
+ 1616 4.333919312 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=17609 Ack=1478 Win=65535 Len=0
+ 1617 4.334184668 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [ACK] Seq=17609 Ack=1479 Win=65535 Len=0
+ 1618 4.345478420 142.251.32.99 → 10.0.3.15    UDP 69 443 → 51949 Len=27
+ 1619 4.353237708 142.251.32.99 → 10.0.3.15    UDP 72 443 → 51949 Len=30
+ 1620 4.374258775    10.0.3.15 → 142.251.32.99 UDP 74 51949 → 443 Len=32
+ 1621 4.398750327 142.251.32.99 → 10.0.3.15    UDP 1395 443 → 51949 Len=1353
+ 1622 4.398975343 142.251.32.99 → 10.0.3.15    UDP 1399 443 → 51949 Len=1357
+ 1623 4.398975374 142.251.32.99 → 10.0.3.15    UDP 237 443 → 51949 Len=195
+ 1624 4.399052870    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1625 4.399154933 142.251.32.99 → 10.0.3.15    UDP 315 443 → 51949 Len=273
+ 1626 4.399212336    10.0.3.15 → 142.251.32.99 UDP 73 51949 → 443 Len=31
+ 1627 4.407840091    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0xb66c A www.google.com
+ 1628 4.408141099    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0xd740 AAAA www.google.com
+ 1629 4.409172432  10.6.15.200 → 10.0.3.15    DNS 522 Standard query response 0xb66c A www.google.com A 216.239.38.120 NS m.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net NS f.gtld-servers.net NS k.gtld-servers.net NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS d.gtld-servers.net NS j.gtld-servers.net A 192.55.83.30 A 192.33.14.30 A 192.43.172.30 A 192.41.162.30 A 192.42.93.30 A 192.35.51.30 A 192.52.178.30 A 192.12.94.30 A 192.5.6.30 A 192.26.92.30 A 192.54.112.30 A 192.31.80.30 A 192.48.79.30
+ 1630 4.413493801    10.0.3.15 → 216.239.38.120 UDP 1399 47874 → 443 Len=1357
+ 1631 4.413558940    10.0.3.15 → 216.239.38.120 UDP 860 47874 → 443 Len=818
+ 1632 4.430951728 216.239.38.120 → 10.0.3.15    UDP 77 443 → 47874 Len=35
+ 1633 4.434960294 216.239.38.120 → 10.0.3.15    UDP 74 443 → 47874 Len=32
+ 1634 4.448096935 197.189.204.175 → 10.0.3.15    TLSv1 1514 Server Hello
+ 1635 4.448109083    10.0.3.15 → 197.189.204.175 TCP 54 44834 → 443 [ACK] Seq=518 Ack=1461 Win=62780 Len=0
+ 1636 4.448324102    10.0.3.15 → 197.189.204.175 TLSv1 61 Alert (Level: Fatal, Description: Protocol Version)
+ 1637 4.448516384 197.189.204.175 → 10.0.3.15    TLSv1 202 Certificate, Server Hello Done
+ 1638 4.448524874    10.0.3.15 → 197.189.204.175 TCP 54 44834 → 443 [ACK] Seq=525 Ack=1609 Win=62780 Len=0
+ 1639 4.448861289 197.189.204.175 → 10.0.3.15    TCP 60 443 → 44834 [ACK] Seq=1609 Ack=525 Win=65535 Len=0
+ 1640 4.448861355 216.239.38.120 → 10.0.3.15    UDP 330 443 → 47874 Len=288
+ 1641 4.449077630 216.239.38.120 → 10.0.3.15    UDP 148 443 → 47874 Len=106
+ 1642 4.449515508    10.0.3.15 → 197.189.204.175 TCP 54 44834 → 443 [RST, ACK] Seq=525 Ack=1609 Win=62780 Len=0
+ 1643 4.450094532    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+ 1644 4.451367586    10.0.3.15 → 34.107.221.82 HTTP 355 GET /canonical.html HTTP/1.1 
+ 1645 4.451633723 34.107.221.82 → 10.0.3.15    TCP 60 80 → 52830 [ACK] Seq=299 Ack=603 Win=65535 Len=0
+ 1646 4.469430289 34.107.221.82 → 10.0.3.15    HTTP 352 HTTP/1.1 200 OK  (text/html)
+ 1647 4.469439634    10.0.3.15 → 34.107.221.82 TCP 54 52830 → 80 [ACK] Seq=603 Ack=597 Win=63942 Len=0
+ 1648 4.470734378    10.0.3.15 → 34.107.221.82 HTTP 357 GET /success.txt?ipv4 HTTP/1.1 
+ 1649 4.471014038 34.107.221.82 → 10.0.3.15    TCP 60 80 → 52844 [ACK] Seq=217 Ack=607 Win=65535 Len=0
+ 1650 4.471332197 216.239.38.120 → 10.0.3.15    UDP 74 443 → 47874 Len=32
+ 1651 4.471877640    10.0.3.15 → 10.6.15.200  DNS 73 Standard query 0x6e8e AAAA ipv4only.arpa
+ 1652 4.478277574 142.250.138.101 → 10.0.3.15    UDP 72 443 → 48100 Len=30
+ 1653 4.489241778 34.107.221.82 → 10.0.3.15    HTTP 270 HTTP/1.1 200 OK  (text/plain)
+ 1654 4.489251903    10.0.3.15 → 34.107.221.82 TCP 54 52844 → 80 [ACK] Seq=607 Ack=433 Win=64024 Len=0
+ 1655 4.495411145 142.250.113.95 → 10.0.3.15    TLSv1.3 668 Application Data, Application Data
+ 1656 4.495422908    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=1228 Ack=5296 Win=62780 Len=0
+ 1657 4.495868450 142.250.113.95 → 10.0.3.15    TLSv1.3 85 Application Data
+ 1658 4.495875601    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=1228 Ack=5327 Win=62780 Len=0
+ 1659 4.496042387    10.0.3.15 → 142.250.113.95 TLSv1.3 85 Application Data
+ 1660 4.496214668 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [ACK] Seq=5327 Ack=1259 Win=65535 Len=0
+ 1661 4.500402739    10.0.3.15 → 142.250.138.101 UDP 74 48100 → 443 Len=32
+ 1662 4.502425784 142.250.138.101 → 10.0.3.15    UDP 412 443 → 48100 Len=370
+ 1663 4.502765421    10.0.3.15 → 142.250.138.101 UDP 78 48100 → 443 Len=36
+ 1664 4.502855187 142.250.138.101 → 10.0.3.15    UDP 278 443 → 48100 Len=236
+ 1665 4.502952847    10.0.3.15 → 142.250.138.101 UDP 73 48100 → 443 Len=31
+ 1666 4.514936250 142.250.113.95 → 10.0.3.15    TLSv1.3 274 Application Data
+ 1667 4.514949910    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=1259 Ack=5547 Win=62780 Len=0
+ 1668 4.515194972 142.250.113.95 → 10.0.3.15    TLSv1.3 415 Application Data, Application Data, Application Data
+ 1669 4.515202242    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=1259 Ack=5908 Win=62780 Len=0
+ 1670 4.515378591    10.0.3.15 → 142.250.113.95 TLSv1.3 93 Application Data
+ 1671 4.515493687    10.0.3.15 → 142.250.113.95 TLSv1.3 78 Application Data
+ 1672 4.515565343    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [FIN, ACK] Seq=1322 Ack=5908 Win=62780 Len=0
+ 1673 4.515769482 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [ACK] Seq=5908 Ack=1298 Win=65535 Len=0
+ 1674 4.515769564 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [ACK] Seq=5908 Ack=1322 Win=65535 Len=0
+ 1675 4.515769602 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [ACK] Seq=5908 Ack=1323 Win=65535 Len=0
+ 1676 4.521156622    10.0.3.15 → 216.239.38.120 UDP 556 47874 → 443 Len=514
+ 1677 4.522312855    10.0.3.15 → 216.239.38.120 UDP 79 47874 → 443 Len=37
+ 1678 4.532744846    10.0.3.15 → 240.0.0.1    TCP 74 [TCP Retransmission] 57962 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=405736106 TSecr=0 WS=128
+ 1679 4.537024228 142.250.64.118 → 10.0.3.15    UDP 658 443 → 38180 Len=616
+ 1680 4.537239502 142.250.64.118 → 10.0.3.15    UDP 139 443 → 38180 Len=97
+ 1681 4.537688921    10.0.3.15 → 142.250.64.118 UDP 73 38180 → 443 Len=31
+ 1682 4.538173818 142.250.64.118 → 10.0.3.15    TCP 60 443 → 46126 [FIN, ACK] Seq=17609 Ack=1479 Win=65535 Len=0
+ 1683 4.538185745    10.0.3.15 → 142.250.64.118 TCP 54 46126 → 443 [ACK] Seq=1479 Ack=17610 Win=62780 Len=0
+ 1684 4.538712200 216.239.38.120 → 10.0.3.15    UDP 77 443 → 47874 Len=35
+ 1685 4.538977768 216.239.38.120 → 10.0.3.15    UDP 1394 443 → 47874 Len=1352
+ 1686 4.539175518 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1687 4.539365921 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1688 4.539365963 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1689 4.539554233 216.239.38.120 → 10.0.3.15    UDP 1399 443 → 47874 Len=1357
+ 1690 4.539744881 216.239.38.120 → 10.0.3.15    UDP 293 443 → 47874 Len=251
+ 1691 4.540043015    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+ 1692 4.543323135 216.239.38.120 → 10.0.3.15    UDP 74 443 → 47874 Len=32
+ 1693 4.564165385 142.250.64.118 → 10.0.3.15    UDP 69 443 → 38180 Len=27
+ 1694 4.564165593 216.239.38.120 → 10.0.3.15    UDP 74 443 → 47874 Len=32
+ 1695 4.627371312 142.251.32.99 → 10.0.3.15    UDP 69 443 → 51949 Len=27
+ 1696 4.660062089  10.6.15.200 → 10.0.3.15    DNS 506 Standard query response 0xd740 AAAA www.google.com NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS d.gtld-servers.net NS j.gtld-servers.net NS m.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net NS f.gtld-servers.net NS k.gtld-servers.net A 192.12.94.30 A 192.5.6.30 A 192.26.92.30 A 192.54.112.30 A 192.31.80.30 A 192.48.79.30 A 192.55.83.30 A 192.33.14.30 A 192.43.172.30 A 192.41.162.30 A 192.42.93.30 A 192.35.51.30 A 192.52.178.30
+ 1697 4.704987240 142.250.113.95 → 10.0.3.15    TCP 60 443 → 45184 [FIN, ACK] Seq=5908 Ack=1323 Win=65535 Len=0
+ 1698 4.705000849    10.0.3.15 → 142.250.113.95 TCP 54 45184 → 443 [ACK] Seq=1323 Ack=5909 Win=62780 Len=0
+ 1699 4.717674441 142.250.138.101 → 10.0.3.15    UDP 69 443 → 48100 Len=27
+ 1700 4.723544381  10.6.15.200 → 10.0.3.15    DNS 492 Standard query response 0x6e8e AAAA ipv4only.arpa NS f.root-servers.net NS k.root-servers.net NS d.root-servers.net NS h.root-servers.net NS l.root-servers.net NS e.root-servers.net NS m.root-servers.net NS g.root-servers.net NS i.root-servers.net NS j.root-servers.net NS b.root-servers.net NS c.root-servers.net NS a.root-servers.net A 192.5.5.241 A 193.0.14.129 A 199.7.91.13 A 198.97.190.53 A 199.7.83.42 A 192.203.230.10 A 202.12.27.33 A 192.112.36.4 A 192.36.148.17 A 192.58.128.30 A 199.9.14.201 A 192.33.4.12 A 198.41.0.4
+ 1701 4.724404371    10.0.3.15 → 10.6.15.200  DNS 73 Standard query 0xc762 AAAA ipv4only.arpa
+ 1702 4.976430757  10.6.15.200 → 10.0.3.15    DNS 492 Standard query response 0xc762 AAAA ipv4only.arpa NS k.root-servers.net NS d.root-servers.net NS h.root-servers.net NS l.root-servers.net NS e.root-servers.net NS m.root-servers.net NS g.root-servers.net NS i.root-servers.net NS j.root-servers.net NS b.root-servers.net NS c.root-servers.net NS a.root-servers.net NS f.root-servers.net A 193.0.14.129 A 199.7.91.13 A 198.97.190.53 A 199.7.83.42 A 192.203.230.10 A 202.12.27.33 A 192.112.36.4 A 192.36.148.17 A 192.58.128.30 A 199.9.14.201 A 192.33.4.12 A 198.41.0.4 A 192.5.5.241
+ 1703 5.455250168    10.0.3.15 → 197.189.204.175 TCP 74 44840 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2666847385 TSecr=0 WS=128
+ 1704 5.600581050 197.189.204.175 → 10.0.3.15    TCP 60 443 → 44840 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+ 1705 5.600609149    10.0.3.15 → 197.189.204.175 TCP 54 44840 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+ 1706 5.602099827    10.0.3.15 → 197.189.204.175 TLSv1 571 Client Hello
+ 1707 5.602463720 197.189.204.175 → 10.0.3.15    TCP 60 443 → 44840 [ACK] Seq=1 Ack=518 Win=65535 Len=0
+ 1708 5.751783537 197.189.204.175 → 10.0.3.15    TLSv1 1662 Server Hello, Certificate, Server Hello Done
+ 1709 5.751805991    10.0.3.15 → 197.189.204.175 TCP 54 44840 → 443 [ACK] Seq=518 Ack=1609 Win=62780 Len=0
+ 1710 5.752553301    10.0.3.15 → 197.189.204.175 TLSv1 61 Alert (Level: Fatal, Description: Protocol Version)
+ 1711 5.752983777 197.189.204.175 → 10.0.3.15    TCP 60 443 → 44840 [ACK] Seq=1609 Ack=525 Win=65535 Len=0
+ 1712 5.753149217    10.0.3.15 → 197.189.204.175 TCP 54 44840 → 443 [RST, ACK] Seq=525 Ack=1609 Win=62780 Len=0
+ 1713 5.775378513    10.0.3.15 → 34.107.221.82 HTTP 355 GET /canonical.html HTTP/1.1 
+ 1714 5.775948435 34.107.221.82 → 10.0.3.15    TCP 60 80 → 52830 [ACK] Seq=597 Ack=904 Win=65535 Len=0
+ 1715 5.778427719    10.0.3.15 → 216.239.38.120 UDP 686 47874 → 443 Len=644
+ 1716 5.793682116 34.107.221.82 → 10.0.3.15    HTTP 352 HTTP/1.1 200 OK  (text/html)
+ 1717 5.793700545    10.0.3.15 → 34.107.221.82 TCP 54 52830 → 80 [ACK] Seq=904 Ack=895 Win=63942 Len=0
+ 1718 5.795525101 216.239.38.120 → 10.0.3.15    UDP 77 443 → 47874 Len=35
+ 1719 5.796204842    10.0.3.15 → 34.107.221.82 HTTP 357 GET /success.txt?ipv4 HTTP/1.1 
+ 1720 5.796511849 34.107.221.82 → 10.0.3.15    TCP 60 80 → 52844 [ACK] Seq=433 Ack=910 Win=65535 Len=0
+ 1721 5.797068799    10.0.3.15 → 10.6.15.200  DNS 73 Standard query 0xd0ff AAAA ipv4only.arpa
+ 1722 5.810767136 216.239.38.120 → 10.0.3.15    UDP 278 443 → 47874 Len=236
+ 1723 5.810928988 216.239.38.120 → 10.0.3.15    UDP 68 443 → 47874 Len=26
+ 1724 5.811172405    10.0.3.15 → 216.239.38.120 UDP 80 47874 → 443 Len=38
+ 1725 5.814305034 34.107.221.82 → 10.0.3.15    HTTP 270 HTTP/1.1 200 OK  (text/plain)
+ 1726 5.814314329    10.0.3.15 → 34.107.221.82 TCP 54 52844 → 80 [ACK] Seq=910 Ack=649 Win=64024 Len=0
+ 1727 5.832548593 216.239.38.120 → 10.0.3.15    UDP 74 443 → 47874 Len=32
+ 1728 6.053716178  10.6.15.200 → 10.0.3.15    DNS 492 Standard query response 0xd0ff AAAA ipv4only.arpa NS d.root-servers.net NS h.root-servers.net NS l.root-servers.net NS e.root-servers.net NS m.root-servers.net NS g.root-servers.net NS i.root-servers.net NS j.root-servers.net NS b.root-servers.net NS c.root-servers.net NS a.root-servers.net NS f.root-servers.net NS k.root-servers.net A 199.7.91.13 A 198.97.190.53 A 199.7.83.42 A 192.203.230.10 A 202.12.27.33 A 192.112.36.4 A 192.36.148.17 A 192.58.128.30 A 199.9.14.201 A 192.33.4.12 A 198.41.0.4 A 192.5.5.241 A 193.0.14.129
+ 1729 6.054042430    10.0.3.15 → 10.6.15.200  DNS 73 Standard query 0x6585 AAAA ipv4only.arpa
+ 1730 6.292684134    10.0.3.15 → 240.0.0.1    TCP 74 [TCP Retransmission] 34974 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=405737865 TSecr=0 WS=128
+ 1731 6.305931842  10.6.15.200 → 10.0.3.15    DNS 492 Standard query response 0x6585 AAAA ipv4only.arpa NS l.root-servers.net NS e.root-servers.net NS m.root-servers.net NS g.root-servers.net NS i.root-servers.net NS j.root-servers.net NS b.root-servers.net NS c.root-servers.net NS a.root-servers.net NS f.root-servers.net NS k.root-servers.net NS d.root-servers.net NS h.root-servers.net A 199.7.83.42 A 192.203.230.10 A 202.12.27.33 A 192.112.36.4 A 192.36.148.17 A 192.58.128.30 A 199.9.14.201 A 192.33.4.12 A 198.41.0.4 A 192.5.5.241 A 193.0.14.129 A 199.7.91.13 A 198.97.190.53
+ 1732 6.549260537    10.0.3.15 → 240.0.0.1    TCP 74 [TCP Retransmission] 57962 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=405738122 TSecr=0 WS=128
+ 1733 9.528134173    10.0.3.15 → 216.239.38.120 UDP 1399 47874 → 443 Len=1357
+ 1734 9.528331808    10.0.3.15 → 216.239.38.120 UDP 466 47874 → 443 Len=424
+ 1735 9.529111482    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0x723e A www.google.com
+ 1736 9.529334736    10.0.3.15 → 10.6.15.200  DNS 74 Standard query 0x9380 AAAA www.google.com
+ 1737 9.529771401    10.0.3.15 → 216.239.38.120 UDP 1399 47874 → 443 Len=1357
+ 1738 9.529846769    10.0.3.15 → 216.239.38.120 UDP 1399 47874 → 443 Len=1357
+ 1739 9.529895573    10.0.3.15 → 216.239.38.120 UDP 149 47874 → 443 Len=107
+ 1740 9.530452203  10.6.15.200 → 10.0.3.15    DNS 522 Standard query response 0x723e A www.google.com A 216.239.38.120 NS h.gtld-servers.net NS d.gtld-servers.net NS j.gtld-servers.net NS m.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net NS f.gtld-servers.net NS k.gtld-servers.net NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net A 192.54.112.30 A 192.31.80.30 A 192.48.79.30 A 192.55.83.30 A 192.33.14.30 A 192.43.172.30 A 192.41.162.30 A 192.42.93.30 A 192.35.51.30 A 192.52.178.30 A 192.12.94.30 A 192.5.6.30 A 192.26.92.30
+ 1741 9.545841668 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+ 1742 9.546321447 216.239.38.120 → 10.0.3.15    UDP 68 443 → 47874 Len=26
+ 1743 9.547291097 216.239.38.120 → 10.0.3.15    UDP 73 443 → 47874 Len=31
+ 1744 9.547291278 216.239.38.120 → 10.0.3.15    UDP 68 443 → 47874 Len=26
+ 1745 9.547428383    10.0.3.15 → 216.239.38.120 UDP 75 47874 → 443 Len=33
+ 1746 9.561534312 216.239.38.120 → 10.0.3.15    UDP 443 443 → 47874 Len=401
+ 1747 9.561885303    10.0.3.15 → 216.239.38.120 UDP 73 47874 → 443 Len=31
+ 1748 9.562663418 216.239.38.120 → 10.0.3.15    UDP 254 443 → 47874 Len=212
+ 1749 9.562847234    10.0.3.15 → 216.239.38.120 UDP 87 47874 → 443 Len=45
+ 1750 9.562984742 216.239.38.120 → 10.0.3.15    UDP 68 443 → 47874 Len=26
+ 1751 9.582881412 216.239.38.120 → 10.0.3.15    UDP 74 443 → 47874 Len=32
+ 1752 9.588665049    10.0.3.15 → 216.239.38.120 UDP 76 47874 → 443 Len=34
+ 1753 9.604221388 216.239.38.120 → 10.0.3.15    UDP 68 443 → 47874 Len=26
+ 1754 9.604470887    10.0.3.15 → 216.239.38.120 UDP 77 47874 → 443 Len=35
+ 1755 9.781329156  10.6.15.200 → 10.0.3.15    DNS 506 Standard query response 0x9380 AAAA www.google.com NS j.gtld-servers.net NS m.gtld-servers.net NS b.gtld-servers.net NS i.gtld-servers.net NS l.gtld-servers.net NS g.gtld-servers.net NS f.gtld-servers.net NS k.gtld-servers.net NS e.gtld-servers.net NS a.gtld-servers.net NS c.gtld-servers.net NS h.gtld-servers.net NS d.gtld-servers.net A 192.48.79.30 A 192.55.83.30 A 192.33.14.30 A 192.43.172.30 A 192.41.162.30 A 192.42.93.30 A 192.35.51.30 A 192.52.178.30 A 192.12.94.30 A 192.5.6.30 A 192.26.92.30 A 192.54.112.30 A 192.31.80.30
+ 1756 10.484962843    10.0.3.15 → 240.0.0.1    TCP 74 [TCP Retransmission] 34974 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=405742058 TSecr=0 WS=128
+ 1757 10.747315885    10.0.3.15 → 240.0.0.1    TCP 74 [TCP Retransmission] 57962 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=405742320 TSecr=0 WS=128
+ 1758 11.600674193    10.0.3.15 → 192.229.211.108 TCP 54 [TCP Keep-Alive] 36296 → 80 [ACK] Seq=424 Ack=802 Win=63439 Len=0
+ 1759 11.601119022 192.229.211.108 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 36296 [ACK] Seq=802 Ack=425 Win=65535 Len=0
+ 1760 11.626013550    10.0.3.15 → 192.229.211.108 TCP 54 [TCP Keep-Alive] 36284 → 80 [ACK] Seq=424 Ack=802 Win=63439 Len=0
+ 1761 11.626337941 192.229.211.108 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 36284 [ACK] Seq=802 Ack=425 Win=65535 Len=0
+ 1762 11.769078238    10.0.3.15 → 142.250.138.94 TCP 54 [TCP Keep-Alive] 37810 → 80 [ACK] Seq=427 Ack=703 Win=63882 Len=0
+ 1763 11.769324787 142.250.138.94 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 37810 [ACK] Seq=703 Ack=428 Win=65535 Len=0
+ 1764 12.054102407    10.0.3.15 → 23.220.249.209 TCP 54 [TCP Keep-Alive] 41568 → 80 [ACK] Seq=846 Ack=1778 Win=63936 Len=0
+ 1765 12.054436674 23.220.249.209 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 41568 [ACK] Seq=1778 Ack=847 Win=65535 Len=0
+ 1766 13.720802587    10.0.3.15 → 142.250.138.94 TCP 54 [TCP Keep-Alive] 37814 → 80 [ACK] Seq=1706 Ack=2807 Win=63882 Len=0
+ 1767 13.720941015    10.0.3.15 → 142.250.138.94 TCP 54 [TCP Keep-Alive] 37796 → 80 [ACK] Seq=1704 Ack=2805 Win=63791 Len=0
+ 1768 13.721237442 142.250.138.94 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 37814 [ACK] Seq=2807 Ack=1707 Win=65535 Len=0
+ 1769 13.721432412 142.250.138.94 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 37796 [ACK] Seq=2805 Ack=1705 Win=65535 Len=0
+ 1770 13.728749654    10.0.3.15 → 142.250.138.94 TCP 54 [TCP Keep-Alive] 37818 → 80 [ACK] Seq=426 Ack=702 Win=63791 Len=0
+ 1771 13.729120841 142.250.138.94 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 37818 [ACK] Seq=702 Ack=427 Win=65535 Len=0
+ 1772 14.326459458    10.0.3.15 → 142.250.138.94 TCP 54 [TCP Keep-Alive] 56610 → 80 [ACK] Seq=426 Ack=702 Win=63791 Len=0
+ 1773 14.327200843 142.250.138.94 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 56610 [ACK] Seq=702 Ack=427 Win=65535 Len=0
+ 1774 15.864733165    10.0.3.15 → 34.107.221.82 TCP 54 [TCP Keep-Alive] 52830 → 80 [ACK] Seq=903 Ack=895 Win=63942 Len=0
+ 1775 15.864873151    10.0.3.15 → 34.107.221.82 TCP 54 [TCP Keep-Alive] 52844 → 80 [ACK] Seq=909 Ack=649 Win=64024 Len=0
+ 1776 15.865486408 34.107.221.82 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 52830 [ACK] Seq=895 Ack=904 Win=65535 Len=0
+ 1777 15.865486481 34.107.221.82 → 10.0.3.15    TCP 60 [TCP Keep-Alive ACK] 80 → 52844 [ACK] Seq=649 Ack=910 Win=65535 Len=0

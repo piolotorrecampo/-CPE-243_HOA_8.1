@@ -1,0 +1,37 @@
+
+- name: Installing wireshark
+  apt: 
+    name: tshark
+
+# this directory will hold the PCAP file
+- name: Creating a directory in managed node
+  file:
+    path: /home/managed_node_one/pcaps/
+    state: directory
+
+- name: Creating folder in control node
+  file:
+    path: /home/piolo/Desktop/CPE-243_HOA_8.1/pcaps/
+    state: directory
+
+- name: Creating pcap file
+  shell: |
+    touch /home/managed_node_one/pcaps/network.pcap
+    chmod o=rw /home/managed_node_one/pcaps/network.pcap 
+ 
+- name: Capturing traffic 
+  shell: 
+    tshark -i enp0s8 -d tcp.port==8888,http -T text -w /home/managed_node_one/Desktop/pcaps/network.pcap >> network.txt
+  async: 45
+  poll: 0
+  ignore_errors: true
+
+- name: Extracting pcap executable file
+  fetch:
+    src: /home/managed_node_one/Desktop/pcaps/network.pcap
+    dest: /home/piolo/Desktop/CPE-243_HOA_8.1/pcaps/
+
+- name: Extracting pcap executable file
+  fetch:
+    src: /home/managed_node_one/Desktop/pcaps/network.txt
+    dest: /home/piolo/Desktop/CPE-243_HOA_8.1/pcaps/
